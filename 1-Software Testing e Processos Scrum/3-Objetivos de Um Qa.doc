@@ -1,0 +1,42 @@
+OBJETIVOS 
+
+avaliação do produto 
+
+comprimento de requisitos= cumprimedo o que promete 
+
+construir confiança o mais importante, um processo de qualidade e automações que estejam funcionando 
+
+Achar defeitos - Testar sistema 
+
+Prever Bugs - exemplo em uma reunião sobre mudança do sistema, na reunião já prever o que pode haver de bugs
+
+Reporte para StakeHolder(dono do produto) Mas também podemos trazer também para o PO.
+Cobertura de teste, quais testes foram feitos depois do lançamento e quais foram os testes automatizados e manuais
+
+Reduzir os riscos, recapitulando de todos os tópicos
+
+-----------------------
+Os 7 fundamentos do Quality Assurance (QA) são princípios essenciais que orientam práticas de garantia de qualidade em processos de desenvolvimento de software. Esses fundamentos ajudam a garantir que os produtos atendam aos requisitos e padrões de qualidade. Aqui estão os sete fundamentos:
+
+1. **Foco no Cliente**:
+   - A qualidade deve ser definida em termos das necessidades e expectativas do cliente. O objetivo é garantir que o produto final atenda ou supere essas expectativas.
+
+2. **Prevenção de Defeitos**:
+   - É mais eficaz prevenir defeitos do que detectá-los após a ocorrência. Isso envolve práticas como revisão de requisitos, design e testes em fases iniciais do desenvolvimento.
+
+3. **Processo de Melhoria Contínua**:
+   - A qualidade deve ser um objetivo contínuo. As organizações devem buscar constantemente melhorar seus processos, produtos e serviços por meio de feedback e aprendizado.
+
+4. **Envolvimento da Equipe**:
+   - Todos os membros da equipe, não apenas os testers, devem estar envolvidos na garantia de qualidade. Isso inclui desenvolvedores, gerentes de projeto e outros stakeholders.
+
+5. **Medidas e Métricas**:
+   - A qualidade deve ser mensurável. O uso de métricas ajuda a avaliar o desempenho do processo e a identificar áreas que precisam de melhorias.
+
+6. **Testes Abrangentes**:
+   - Testes devem ser realizados em diferentes níveis (unitários, integração, sistema, aceitação) e tipos (funcionais, não funcionais) para garantir que todas as partes do software sejam verificadas.
+
+7. **Documentação e Comunicação**:
+   - A documentação adequada dos processos, requisitos e resultados dos testes é crucial. A comunicação clara entre os membros da equipe e as partes interessadas ajuda a garantir que todos estejam alinhados quanto aos objetivos de qualidade.
+
+Esses fundamentos são essenciais para criar um ambiente de desenvolvimento de software que priorize a qualidade e a satisfação do cliente. Se precisar de mais informações ou detalhes sobre algum desses fundamentos, fique à vontade para perguntar!

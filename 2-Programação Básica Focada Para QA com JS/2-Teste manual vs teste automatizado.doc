@@ -1,0 +1,44 @@
+Cypress será a ferramenta para a automação de teste 
+
+
+
+------------------------
+O teste manual e o teste automatizado são duas abordagens distintas para garantir a qualidade do software, cada uma com suas vantagens e desvantagens. Vamos explorar as principais diferenças entre elas:
+
+### Teste Manual
+
+**Definição**: O teste manual é o processo em que os testadores executam casos de teste manualmente, sem o uso de ferramentas de automação. Os testadores interagem com a aplicação como um usuário final, verificando se o software funciona conforme esperado.
+
+**Vantagens**:
+1. **Flexibilidade**: Os testadores podem facilmente adaptar os testes a mudanças nos requisitos ou no software.
+2. **Exploração**: Permite testes exploratórios, onde os testadores podem descobrir bugs que não estão cobertos por casos de teste formais.
+3. **Avaliação da Experiência do Usuário**: Testes manuais são eficazes para avaliar a usabilidade e a experiência do usuário, pois os testadores atuam como usuários reais.
+
+**Desvantagens**:
+1. **Tempo e Custo**: Testes manuais podem ser demorados e custosos, especialmente para grandes aplicações.
+2. **Repetitividade**: Testes repetitivos podem levar a erros humanos e fadiga, resultando em testes menos eficazes.
+3. **Cobertura Limitada**: Pode ser difícil garantir que todos os cenários de teste sejam cobertos manualmente.
+
+### Teste Automatizado
+
+**Definição**: O teste automatizado envolve o uso de ferramentas e scripts para executar casos de teste automaticamente. É especialmente útil para testes repetitivos e de regressão.
+
+**Vantagens**:
+1. **Eficiência**: Testes automatizados podem ser executados rapidamente, permitindo que os testes sejam realizados em menos tempo.
+2. **Repetibilidade**: Uma vez que os testes são automatizados, eles podem ser executados repetidamente sem o risco de erro humano.
+3. **Cobertura Aumentada**: É mais fácil executar um grande número de testes em diferentes cenários e ambientes, aumentando a cobertura de testes.
+
+**Desvantagens**:
+1. **Custo Inicial**: O desenvolvimento e a manutenção de testes automatizados podem exigir um investimento inicial significativo em tempo e recursos.
+2. **Complexidade**: Criar testes automatizados pode ser complexo, especialmente para aplicações dinâmicas ou com interfaces de usuário complexas.
+3. **Limitações em Testes de Usabilidade**: Testes automatizados não podem avaliar a experiência do usuário da mesma forma que um testador humano.
+
+### Quando Usar Cada Um
+
+- **Teste Manual**: Ideal para testes exploratórios, testes de usabilidade, testes em fases iniciais de desenvolvimento e quando mudanças frequentes estão ocorrendo.
+  
+- **Teste Automatizado**: Melhor para testes de regressão, testes de carga, testes repetitivos e quando há uma base de código estável que requer testes frequentes.
+
+### Conclusão
+
+Ambos os métodos têm seu lugar no processo de garantia de qualidade. Muitas equipes de QA adotam uma abordagem híbrida, utilizando tanto testes manuais quanto automatizados para maximizar a eficiência e a eficácia do processo de teste. A escolha entre teste manual e automatizado deve ser baseada nas necessidades específicas do projeto, no orçamento e nos recursos disponíveis.

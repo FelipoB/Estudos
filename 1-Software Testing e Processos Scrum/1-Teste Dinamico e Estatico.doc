@@ -1,0 +1,33 @@
+TESTE ESTÁTICO
+O teste estático refere-se à análise do código-fonte, O PROCESSO de desenvolvimento, documentação ou outros artefatos do software
+ sem executá-los. 
+ 
+ Essa abordagem pode incluir:
+
+Revisões de Código: Análise manual do código por outros desenvolvedores para identificar problemas.
+ Análise de Código: Uso de ferramentas automatizadas para detectar erros, vulnerabilidades ou padrões de codificação inadequados.
+ Inspeções: Processos formais de revisão onde um grupo examina o código ou documentação em busca de defeitos.
+ Documentação: Análise de requisitos e design para garantir que estejam claros e completos.
+ 
+ Vantagens do teste estático:
+
+Detecta erros antes da execução do código.
+Pode ser realizado em qualquer fase do desenvolvimento.
+Reduz custos de correção de erros, pois problemas são identificados mais cedo.
+
+
+TESTE DINAMICO
+O teste dinâmico envolve a execução do código para verificar seu comportamento em tempo de 
+execução. Isso inclui:
+Verificação se o software atende aos requisitos funcionais especificados.
+
+Testes de Regressão: Garantir que alterações no código não introduzam novos defeitos.
+Testes de Performance: Avaliação do comportamento do software sob carga ou estresse.
+Testes de Segurança: Identificação de vulnerabilidades enquanto o software está em execução.
+Vantagens do teste dinâmico:
+
+Permite observar o comportamento real do software.
+Pode identificar problemas que não são visíveis na análise estática.
+Ajuda a validar a experiência do usuário.
+Conclusão
+Ambas as abordagens são essenciais para garantir a qualidade do software. O teste estático é eficaz para detectar problemas precocemente, enquanto o teste dinâmico é crucial para validar o comportamento do software em condições reais de uso. Idealmente, uma combinação de ambos deve ser utilizada para garantir um produto de alta qualidade.

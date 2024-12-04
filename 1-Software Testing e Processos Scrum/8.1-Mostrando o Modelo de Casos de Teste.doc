@@ -1,0 +1,61 @@
+MOSTRANDO O MODELO DE CASOS DE TESTE
+
+Exemplo da aula um quadro de teste especifico:
+
+Título - Logando com email e senha validado
+
+Précondicões - Usuário tem acesso ao sistema  
+
+Passo a Passo -Insrir email e senha válido / clicar em login 
+
+Resultado Esperado - usuário logar com sucesso/usuário é redirecionado para página inicial
+
+Suite de teste -  Login 
+
+Ambiente de teste - Google Chrome / safari / firefox / android EX: iphone 13 - ios 16 - wifi
+
+Resultado encontrado- O mesmo que o esperado 
+
+Status - Pass 
+
+
+
+
+--------------------------
+### Caso de Teste: Login de Usuário
+
+**Identificador do Caso de Teste**: CT001
+
+**Título**: Testar login com credenciais válidas
+
+**Descrição**: Verificar se o usuário consegue fazer login no sistema usando um nome de usuário e senha válidos.
+
+**Pré-condições**:
+- O usuário deve ter uma conta registrada no sistema.
+- O sistema deve estar funcionando e acessível.
+
+**Passos para Execução**:
+1. Acessar a página de login do sistema.
+2. Inserir o nome de usuário válido no campo "Nome de Usuário".
+3. Inserir a senha válida no campo "Senha".
+4. Clicar no botão "Entrar".
+
+**Dados de Entrada**:
+- Nome de Usuário: `usuario_teste`
+- Senha: `senha123`
+
+**Resultado Esperado**:
+- O sistema deve redirecionar o usuário para a página inicial.
+- Uma mensagem de boas-vindas deve ser exibida, indicando que o login foi bem-sucedido.
+
+**Resultado Real**:
+- (A ser preenchido durante a execução do teste)
+
+**Status**:
+- (A ser preenchido durante a execução do teste)
+
+**Comentários**:
+- (A ser preenchido durante a execução do teste, se necessário)
+
+### Observações
+Este é um exemplo simples de um caso de teste. Em um ambiente real, você pode ter muitos casos de teste diferentes, incluindo testes para credenciais inválidas, recuperação de senha, e outros cenários que garantam que o sistema funcione corretamente em todas as situações. Além disso, é importante que os casos de teste sejam revisados e atualizados conforme o sistema evolui.

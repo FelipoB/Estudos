@@ -1,0 +1,29 @@
+TIPOS DE TESTE
+
+Testes funcionais - alguma funcionalidade do produto, como funciona
+
+Teste não funcionais - Teste de carga, stress, tempo de resposta, a capacidade do sistema 
+
+
+------- testes funcionais--------
+Teste de caixa preta - teste no sistema, onde não temos acesso ao código 
+
+Caixa branca, testando os códigos ver se está tudo funcionando, Teste unitarios, revisão de código (Normalmente é feito pelos os Devs mas também pde ser feito pelo QA)
+
+Teste dinamicos - Usar o Software 
+
+Teste estaticos - todo O processo de teste, carga entre outros 
+
+Reteste - fazer o teste depois de qualquer concerto do código, temos que testar tudo, não só a feuture
+
+teste unitário - normalmente feito pelo desenvolvedor, testando as funções e metodos que ele fez. 
+
+Teste de integração - Testar feuteres que se intregão com outras EX: carrinho de compras e metodos de pagamentos 
+
+teste end 2 end - Teste que o usuário possa fazer, de login aaté comrpra.
+
+Smoke teste - testar as principais feuteres, o que não pode bugar de jeito nenhum EX compra, login , visualização dos produtos. 
+
+Teste de regressão - Rodar todos testes que temos, tudo o que pudermos. 
+
+Testes exploratório - Testar como fosse um usuário que nunca usou  sistema, no início do processo. 

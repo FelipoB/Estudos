@@ -1,0 +1,56 @@
+FERRAMENTA UTILIZADA 
+TRELLO OU JIRA 
+
+1-entenda do produto -> Lendo documentação BRS, SRS, FRS E SUT 
+2-Usar o sistema 
+3-Isolar os requisitos para criar o cenário de teste 
+4-Listar cenário de teste 
+5-Revisão 
+
+
+// Prática 
+https://front.serverest.dev/
+
+https://trello.com/b/65sjSujP/felipo-b
+
+--------------------------
+Na área de desenvolvimento de software, diferentes tipos de documentação são utilizados para garantir que os requisitos e as especificações do sistema sejam bem compreendidos e seguidos. Aqui estão as definições de BRS, SRS, FRS e SUT:
+
+### 1. BRS (Business Requirements Specification)
+O BRS, ou Especificação de Requisitos de Negócio, é um documento que descreve as necessidades e expectativas dos stakeholders em relação ao sistema. Ele foca no que o negócio espera do software, sem entrar em detalhes técnicos. O BRS é geralmente utilizado para:
+
+- Capturar os requisitos de alto nível do negócio.
+- Garantir que todos os stakeholders tenham um entendimento comum das necessidades do projeto.
+- Servir como base para a criação de documentos mais detalhados, como o SRS.
+
+### 2. SRS (Software Requirements Specification)
+O SRS, ou Especificação de Requisitos de Software, é um documento mais detalhado que descreve os requisitos funcionais e não funcionais do sistema. Ele é baseado nas informações coletadas no BRS e fornece uma visão clara e completa do que o software deve fazer. O SRS inclui:
+
+- Descrição detalhada das funcionalidades do sistema.
+- Requisitos de desempenho, segurança e usabilidade.
+- Restrições e requisitos técnicos.
+
+O SRS serve como um guia para a equipe de desenvolvimento e como uma referência para testes e validação.
+
+### 3. FRS (Functional Requirements Specification)
+O FRS, ou Especificação de Requisitos Funcionais, é um documento que detalha especificamente os requisitos funcionais do sistema. Ele é uma parte do SRS, mas se concentra exclusivamente nas funcionalidades que o sistema deve oferecer. O FRS pode incluir:
+
+- Casos de uso ou cenários que descrevem como os usuários interagem com o sistema.
+- Descrições de entradas, saídas e processos que o sistema deve realizar.
+- Regras de negócio que devem ser seguidas.
+
+### 4. SUT (System Under Test)
+O SUT, ou Sistema Sob Teste, refere-se ao sistema ou componente específico que está sendo testado em um determinado momento. O SUT pode incluir:
+
+- O software em si, que está sendo avaliado quanto à conformidade com os requisitos especificados.
+- Componentes, módulos ou serviços que fazem parte do software e estão sendo testados individualmente ou em conjunto.
+
+O SUT é um conceito importante no contexto de testes de software, pois define o escopo do que está sendo testado e ajuda a identificar quais requisitos e funcionalidades devem ser validados.
+
+### Resumo
+- **BRS**: Especificação de Requisitos de Negócio, foca nas necessidades do negócio.
+- **SRS**: Especificação de Requisitos de Software, detalha os requisitos funcionais e não funcionais.
+- **FRS**: Especificação de Requisitos Funcionais, descreve as funcionalidades específicas do sistema.
+- **SUT**: Sistema Sob Teste, refere-se ao sistema ou componente que está sendo testado.
+
+Esses documentos são fundamentais para garantir que o desenvolvimento de software atenda às expectativas dos stakeholders e funcione conforme o planejado.

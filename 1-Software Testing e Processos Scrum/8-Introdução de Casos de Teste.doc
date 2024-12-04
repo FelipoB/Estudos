@@ -1,0 +1,55 @@
+INTRODUÇÃO AO CASOS TESTE
+
+Principais pontos 
+
+-Titulos 
+-Précondicões
+-passo a passo dos teste
+-Resultado esperado 
+-cenario de teste 
+-ambiente de teste
+-Status
+
+
+MOSTRANDO O MODELO DE CASOS DE TESTE
+
+
+
+--------------------------
+Casos de teste são documentos que descrevem uma situação específica a ser testada em um sistema de software. Eles são utilizados para verificar se o software atende aos requisitos especificados e para garantir que ele funcione corretamente em diferentes cenários. Um caso de teste geralmente contém informações detalhadas sobre o que deve ser testado, como deve ser testado e quais resultados são esperados.
+
+### Estrutura de um Caso de Teste
+Um caso de teste típico pode incluir os seguintes elementos:
+
+1. **Identificador do Caso de Teste**: Um código ou número único para identificar o caso de teste.
+
+2. **Título**: Uma descrição breve do que o caso de teste aborda.
+
+3. **Descrição**: Uma explicação detalhada do que será testado, incluindo o objetivo do teste.
+
+4. **Pré-condições**: Condições que devem ser atendidas antes da execução do teste (por exemplo, dados de entrada específicos, configuração do ambiente).
+
+5. **Passos para Execução**: Uma lista sequencial de ações que devem ser realizadas para executar o teste.
+
+6. **Dados de Entrada**: Informações que devem ser inseridas no sistema durante o teste.
+
+7. **Resultado Esperado**: O que se espera que aconteça após a execução dos passos do teste. Isso pode incluir mensagens de erro, mudanças no sistema ou saídas específicas.
+
+8. **Resultado Real**: O que realmente aconteceu durante a execução do teste (geralmente preenchido durante a execução).
+
+9. **Status**: Indica se o teste foi bem-sucedido ou falhou.
+
+10. **Comentários**: Observações adicionais sobre o teste, como problemas encontrados ou sugestões de melhoria.
+
+### Importância dos Casos de Teste
+
+- **Validação de Requisitos**: Ajudam a garantir que todos os requisitos foram atendidos.
+
+- **Detecção de Defeitos**: Permitem identificar falhas e bugs no software antes que ele seja lançado.
+
+- **Repetibilidade**: Casos de teste bem documentados podem ser executados várias vezes, garantindo que as funcionalidades continuem funcionando após alterações no código (testes de regressão).
+
+- **Comunicação**: Servem como uma forma de comunicação entre as equipes de desenvolvimento, testes e stakeholders, garantindo que todos tenham um entendimento claro do que está sendo testado.
+
+### Conclusão
+Casos de teste são uma parte essencial do processo de teste de software, contribuindo para a qualidade do produto final. Eles ajudam a garantir que o software atenda às expectativas dos usuários e funcione corretamente em diversas situações.

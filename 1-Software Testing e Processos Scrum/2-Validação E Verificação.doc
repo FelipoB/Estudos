@@ -1,0 +1,23 @@
+Validação e verificação são conceitos fundamentais em testes de software e estão intimamente relacionados ao desenvolvimento ágil, como o Scrum. Vamos explorar cada um deles e como se aplicam nesse contexto.
+
+
+VERIFICAÇÃO
+A verificação é o processo de garantir que o produto de software esteja sendo desenvolvido corretamente em relação aos requisitos e especificações. Em outras palavras, trata-se de confirmar se o que foi construído atende ao que foi planejado. A verificação geralmente é realizada em fases iniciais do desenvolvimento e pode incluir:
+
+Revisões de requisitos: Analisar se os requisitos estão claros e completos.
+Revisões de design: Avaliar se a arquitetura e o design do sistema estão alinhados com os requisitos.
+Testes de unidade: Verificar se as menores partes do código (unidades) funcionam como esperado.
+No contexto do Scrum, a verificação pode ser incorporada nas iterações (sprints) através de revisões de sprint, onde a equipe revisa o que foi desenvolvido e verifica se está de acordo com os critérios de aceitação.
+
+VALIDAÇÃO
+A validação, por outro lado, é o processo de garantir que o produto final atenda às necessidades e expectativas do usuário. Isso envolve testar o software em um ambiente que simula o uso real para verificar se ele resolve os problemas que se propõe a solucionar. A validação pode incluir:
+
+Testes funcionais: Testar se o software funciona de acordo com os requisitos.
+Testes de aceitação do usuário (UAT): Permitir que os usuários finais testem o software para garantir que ele atende às suas necessidades.
+Testes de integração: Verificar se diferentes módulos ou serviços do software funcionam bem juntos.
+No Scrum, a validação é frequentemente realizada durante a revisão da sprint, onde a equipe apresenta o que foi desenvolvido para os stakeholders e recebe feedback. Isso permite que ajustes sejam feitos rapidamente, garantindo que o produto final esteja alinhado com as expectativas do cliente.
+
+Resumo
+Verificação: Foca em construir o produto certo, garantindo que o desenvolvimento esteja em conformidade com os requisitos e especificações.
+Validação: Foca em construir o produto certo para o cliente, garantindo que o software atenda às necessidades e expectativas dos usuários.
+Em um ambiente Scrum, a integração de ambos os processos é essencial para garantir a entrega de um software de qualidade, que não apenas funcione corretamente, mas também satisfaça os usuários finais.

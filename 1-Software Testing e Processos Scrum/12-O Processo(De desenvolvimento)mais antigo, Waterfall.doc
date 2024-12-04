@@ -1,0 +1,86 @@
+O SDLC, ou Software Development Life Cycle (Ciclo de Vida do Desenvolvimento de Software), é um processo estruturado que descreve as etapas envolvidas no desenvolvimento de um software, desde a concepção até a entrega e manutenção. O SDLC é fundamental para garantir que o software seja desenvolvido de maneira eficiente, eficaz e de alta qualidade.
+
+Esse processos podem mudar com padrão da empresa
+
+
+
+
+
+-----------------
+Existem vários tipos de processos de desenvolvimento de software, cada um com suas características, vantagens e desvantagens. Aqui estão alguns dos principais:
+
+1. **Modelo Waterfall (Cascata)**:
+   - Um modelo sequencial onde cada fase deve ser concluída antes da próxima começar. É tradicional e funciona bem para projetos com requisitos bem definidos.
+
+2. **Modelo Ágil (Agile)**:
+   - Uma abordagem iterativa e incremental que permite adaptações frequentes aos requisitos. O desenvolvimento é realizado em ciclos curtos chamados "iterações" ou "sprints". Exemplos incluem Scrum, Kanban e Extreme Programming (XP).
+
+3. **Modelo em Espiral (Spiral)**:
+   - Combina elementos do modelo Waterfall e do desenvolvimento ágil. Foca na gestão de riscos e permite que o desenvolvimento ocorra em ciclos, onde cada ciclo envolve planejamento, análise de riscos, desenvolvimento, testes e avaliação.
+
+4. **Modelo V (V-Model)**:
+   - Uma extensão do modelo Waterfall que enfatiza a verificação e validação. Para cada fase de desenvolvimento, há uma fase correspondente de testes, criando uma relação clara entre o que está sendo desenvolvido e como será testado.
+
+5. **Modelo Incremental**:
+   - O software é desenvolvido em partes (incrementos). Cada incremento adiciona funcionalidades ao produto existente, permitindo que os usuários vejam e testem partes do software à medida que ele é desenvolvido.
+
+6. **Modelo RAD (Rapid Application Development)**:
+   - Enfatiza o desenvolvimento rápido e a prototipagem. Permite que os usuários testem protótipos funcionais antes do desenvolvimento final, facilitando a coleta de feedback.
+
+7. **Modelo DevOps**:
+   - Integra desenvolvimento (Dev) e operações (Ops) para melhorar a colaboração e a entrega contínua. O foco é na automação e monitoramento em todas as etapas do ciclo de vida do software.
+
+8. **Modelo de Desenvolvimento Baseado em Componentes**:
+   - Foca na construção de software a partir de componentes reutilizáveis, permitindo que componentes sejam desenvolvidos separadamente e integrados para formar um sistema maior.
+
+9. **Modelo de Prototipagem**:
+   - Envolve a criação de protótipos do software para entender melhor os requisitos e obter feedback dos usuários antes do desenvolvimento completo do sistema.
+
+Cada um desses modelos pode ser mais adequado para diferentes tipos de projetos, dependendo de fatores como complexidade, requisitos, prazos e a natureza da equipe de desenvolvimento. A escolha do modelo deve ser baseada nas necessidades específicas do projeto e na cultura da equipe.
+
+
+
+
+O processo de desenvolvimento Waterfall (ou "cascata") é um modelo tradicional de desenvolvimento de software que segue uma abordagem linear e sequencial. Esse modelo é chamado de "cascata" porque cada fase do desenvolvimento flui para a próxima, como uma cascata de água. Aqui estão as principais características e etapas do modelo Waterfall:
+
+### Características do Modelo Waterfall
+
+1. **Sequencial**: As fases do desenvolvimento são seguidas em uma ordem fixa. Cada fase deve ser concluída antes que a próxima comece.
+
+2. **Documentação Rigorosa**: Cada fase do processo geralmente resulta em documentação detalhada, que é revisada e aprovada antes de prosseguir.
+
+3. **Requisitos Definidos**: Os requisitos do projeto são definidos no início do processo e não são esperadas mudanças significativas durante o desenvolvimento.
+
+4. **Fases Distintas**: O modelo é dividido em etapas claras, facilitando o gerenciamento e a compreensão do progresso do projeto.
+
+### Etapas do Processo Waterfall
+
+1. **Levantamento de Requisitos**: Nesta fase, os requisitos do sistema são coletados e documentados. É essencial que todos os requisitos sejam compreendidos e aprovados por todas as partes interessadas.
+
+2. **Análise do Sistema**: Os requisitos são analisados para entender como o sistema deve funcionar. Isso pode incluir a criação de diagramas e modelos para ajudar na visualização.
+
+3. **Design do Sistema**: Com base nos requisitos e na análise, o design do sistema é criado. Isso inclui a arquitetura do software, design de banco de dados, interfaces de usuário, etc.
+
+4. **Implementação**: O código é escrito com base no design criado. Os desenvolvedores implementam as funcionalidades do sistema.
+
+5. **Testes**: Após a implementação, o sistema é testado para garantir que atende aos requisitos especificados. Isso inclui testes de unidade, testes de integração e testes de sistema.
+
+6. **Implantação**: O sistema é implantado no ambiente de produção e está disponível para os usuários finais.
+
+7. **Manutenção**: Após a implantação, o sistema pode precisar de manutenção, que pode incluir correção de bugs, atualizações e melhorias.
+
+### Vantagens do Modelo Waterfall
+
+- **Simplicidade**: A estrutura clara e sequencial facilita o gerenciamento do projeto.
+- **Documentação Completa**: A documentação rigorosa ajuda na comunicação entre as partes interessadas.
+- **Facilidade de Gerenciamento**: O progresso do projeto pode ser facilmente monitorado.
+
+### Desvantagens do Modelo Waterfall
+
+- **Rigidez**: Mudanças nos requisitos após a fase de levantamento podem ser difíceis e custosas de implementar.
+- **Atrasos**: Se uma fase é atrasada, isso pode impactar todo o cronograma do projeto.
+- **Risco de Falhas**: Problemas podem não ser identificados até a fase de testes, o que pode resultar em retrabalho significativo.
+
+### Conclusão
+
+O modelo Waterfall é uma abordagem clássica para o desenvolvimento de software, sendo mais adequado para projetos onde os requisitos são bem compreendidos e pouco propensos a mudanças. Embora tenha suas limitações, ainda é utilizado em muitos contextos, especialmente em projetos onde a documentação e a conformidade são essenciais.

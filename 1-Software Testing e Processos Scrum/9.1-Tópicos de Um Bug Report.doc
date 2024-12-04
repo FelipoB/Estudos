@@ -1,0 +1,42 @@
+Tópicos
+
+1 Passo para reprodução 
+2 resultado esperado 
+3 Resultado encontrado 
+4 ambiente de teste 
+5 prioridade 
+6 tipo 
+7 Evidência (mais importante)
+
+Um bug report bem estruturado é fundamental para a eficiência do processo de desenvolvimento e manutenção de software. Ele ajuda a equipe a identificar, reproduzir e resolver problemas de forma mais rápida e eficaz.
+
+
+
+
+
+
+-----EXEMPLO--------
+**Título**: Erro ao fazer login com credenciais válidas
+
+**Descrição**: Ao tentar fazer login com um nome de usuário e senha válidos, o sistema retorna uma mensagem de erro, impedindo o acesso.
+
+**Passos para Reproduzir**:
+1. Acessar a página de login.
+2. Inserir o nome de usuário "usuario_teste".
+3. Inserir a senha "senha123".
+4. Clicar no botão "Entrar".
+
+**Resultado Esperado**: O usuário deve ser redirecionado para a página inicial.
+
+**Resultado Real**: O sistema retorna uma mensagem de erro: "Credenciais inválidas".
+
+**Ambiente**:
+- Sistema Operacional: Windows 10
+- Navegador: Google Chrome, versão 92.0.4515.107
+- Versão do Software: 1.0.0
+
+**Anexos**: (incluir capturas de tela, se necessário)
+
+**Prioridade/Severidade**: Alta
+
+**Notas Adicionais**: O erro ocorre em todos os navegadores testados.

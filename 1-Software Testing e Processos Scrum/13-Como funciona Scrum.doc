@@ -1,0 +1,114 @@
+Scrum Metodolofia mais usada 
+
+https://whimsical.com/processo-empresa-MJH691n98d2XdMWaZG59wC
+
+Stakeholder 
+    P.o
+    -Épicos para fazer as task
+        
+        Refinamento : Refinar task 
+        Equipe:
+        -P.O
+        -Design
+        -Q.A
+        -Devs 
+            
+            BackLog (pronto para desenvolver)
+                
+                Plannig:decidir quais as task que vão entrar na planning  (1 semana a 4 semana)
+                Planning poker: quão dificil foram as task em valor fibonacci
+                
+                Sprint (entra no jira ou trello)
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+    O modelo Scrum é uma abordagem ágil para gerenciamento de projetos, especialmente popular no desenvolvimento de software. Ele se baseia em ciclos de trabalho curtos e iterativos, conhecidos como "sprints", que geralmente duram de duas a quatro semanas. O Scrum promove a colaboração entre equipes multifuncionais e busca entregar incrementos de produto de forma contínua e adaptativa.
+
+Aqui estão os principais componentes do modelo Scrum:
+
+1. **Papéis de cada um**:
+   - **Scrum Master**: Responsável por garantir que o processo Scrum seja seguido, facilitando a comunicação entre os membros da equipe e removendo impedimentos.
+   - **Product Owner**: Representa os interesses dos stakeholders e é responsável por definir e priorizar o backlog do produto, que é uma lista de funcionalidades e requisitos.
+   - **Equipe de Desenvolvimento**: Um grupo multifuncional que trabalha na construção do produto. A equipe é autogerida e deve ser capaz de decidir como realizar o trabalho.
+
+2. **Artefatos**:
+   - **Product Backlog**: Uma lista priorizada de todas as funcionalidades, melhorias e correções que devem ser feitas no produto.
+   - **Sprint Backlog**: Um subconjunto do Product Backlog que a equipe se compromete a completar durante um sprint específico.
+   - **Incremento**: O resultado do trabalho realizado durante um sprint, que deve ser uma versão funcional do produto.
+
+3. **Eventos**:
+   - **Sprint**: O período de tempo fixo em que um conjunto de tarefas é realizado.
+   - **Planejamento do Sprint**: Uma reunião no início de cada sprint onde a equipe define o que será feito.
+   - **Reuniões Diárias (Daily Scrum)**: Breves reuniões diárias (geralmente 15 minutos) onde a equipe discute o progresso e os impedimentos.
+   - **Revisão do Sprint**: Uma reunião no final do sprint para demonstrar o que foi construído e obter feedback.
+   - **Retrospectiva do Sprint**: Uma reunião onde a equipe reflete sobre o sprint passado e discute melhorias para o próximo.
+
+O Scrum é flexível e adaptável, permitindo que as equipes respondam rapidamente a mudanças e feedbacks, o que o torna uma escolha popular em ambientes dinâmicos.
+
+
+
+----------------------------------------------------------------------------------
+
+
+
+## Implementar um Serviço com Modelo Scrum
+
+Implementar um serviço utilizando o modelo Scrum envolve várias etapas que seguem a estrutura ágil. Aqui está um passo a passo que pode ajudar:
+
+### Passo a Passo para Implementar um Serviço com Modelo Scrum
+
+1. **Formação da Equipe Scrum**:
+   - **Definir Papéis**: Escolha um Scrum Master, um Product Owner e uma equipe de desenvolvimento. Cada membro deve entender suas responsabilidades.
+   - **Reunião Inicial**: Realizar uma reunião para alinhar expectativas e esclarecer o papel de cada um.
+
+2. **Definição do Produto**:
+   - **Visão do Produto**: O Product Owner deve criar uma visão clara do que o serviço deve oferecer. Isso inclui entender as necessidades dos stakeholders e do cliente.
+   - **Roadmap**: Criar um roadmap de alto nível que descreva as principais funcionalidades e metas do projeto.
+
+3. **Criação do Product Backlog**:
+   - **Listagem de Requisitos**: O Product Owner deve listar todos os requisitos e funcionalidades desejadas do serviço no Product Backlog.
+   - **Priorização**: As funcionalidades devem ser priorizadas com base no valor para o cliente e na complexidade. Isso pode ser feito usando técnicas como MoSCoW (Must have, Should have, Could have, Won't have).
+
+4. **Planejamento do Sprint**:
+   - **Definir Duração do Sprint**: Escolher a duração do sprint (geralmente de 1 a 4 semanas).
+   - **Selecionar Itens do Backlog**: Durante a reunião de planejamento do sprint, a equipe escolhe quais itens do Product Backlog serão trabalhados no sprint, formando o Sprint Backlog.
+   - **Definir Metas do Sprint**: Estabelecer uma meta clara para o sprint com base nos itens selecionados.
+
+5. **Execução do Sprint**:
+   - **Reuniões Diárias (Daily Scrum)**: Realizar reuniões diárias de 15 minutos para discutir o progresso, o que foi feito, o que será feito e identificar impedimentos.
+   - **Desenvolvimento**: A equipe trabalha nas tarefas do Sprint Backlog, colaborando e se comunicando constantemente.
+
+6. **Revisão do Sprint**:
+   - **Demonstração**: No final do sprint, a equipe apresenta o trabalho concluído para os stakeholders. Isso pode incluir uma demonstração do serviço ou funcionalidades.
+   - **Coleta de Feedback**: O feedback dos stakeholders é coletado e pode levar a ajustes no Product Backlog.
+
+7. **Retrospectiva do Sprint**:
+   - **Reflexão**: A equipe se reúne para discutir o que funcionou bem, o que não funcionou e como as coisas podem ser melhoradas no próximo sprint.
+   - **Ações de Melhoria**: Definir ações concretas para implementar melhorias no próximo sprint.
+
+8. **Iteração**:
+   - **Repetir o Ciclo**: Com base nas lições aprendidas e no feedback, a equipe inicia um novo sprint, revisando o Product Backlog e ajustando as prioridades conforme necessário.
+
+### Considerações Finais
+- **Documentação**: Mantenha a documentação leve e acessível. O foco deve estar na comunicação e colaboração.
+- **Flexibilidade**: Esteja preparado para adaptar o processo conforme necessário, dependendo das necessidades do projeto e da equipe.
+- **Cultura de Colaboração**: Fomentar uma cultura de colaboração e transparência é fundamental para o sucesso do Scrum.
+
+Seguindo esses passos, você pode implementar um serviço de forma eficaz utilizando o modelo Scrum, promovendo agilidade e adaptabilidade ao longo do processo.

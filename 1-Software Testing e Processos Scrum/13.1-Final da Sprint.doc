@@ -1,0 +1,32 @@
+Produção - Site final 
+Existem outros servidores que são iguais ao site que sao para os devs fazerem a alteração 
+
+
+No contexto do Scrum, um **sprint** é um período de tempo fixo durante o qual um conjunto específico de trabalho deve ser concluído e pronto para ser entregue. Os sprints são uma das principais características do Scrum e são fundamentais para a abordagem ágil de desenvolvimento de software. Aqui estão alguns pontos importantes sobre sprints:
+
+### Características do Sprint:
+
+1. **Duração Fixa**: 
+   - Os sprints geralmente duram entre uma e quatro semanas, com uma duração comum de duas semanas. A duração deve ser consistente ao longo do projeto.
+
+2. **Objetivo do Sprint**: 
+   - Cada sprint tem um objetivo claro, que é definido durante a reunião de planejamento do sprint. Esse objetivo deve ser alcançado ao final do sprint.
+
+3. **Sprint Backlog**: 
+   - Durante a reunião de planejamento do sprint, a equipe seleciona itens do Product Backlog para trabalhar durante o sprint. Esses itens formam o Sprint Backlog.
+
+4. **Reuniões Diárias (Daily Scrum)**: 
+   - A equipe se reúne diariamente por cerca de 15 minutos para discutir o progresso, o que foi feito, o que será feito e quaisquer impedimentos que possam estar enfrentando.
+
+5. **Revisão do Sprint**: 
+   - No final do sprint, a equipe realiza uma reunião de revisão do sprint, onde apresenta o trabalho concluído para os stakeholders e coleta feedback.
+
+6. **Retrospectiva do Sprint**: 
+   - Após a revisão, a equipe realiza uma reunião de retrospectiva para discutir o que funcionou bem, o que poderia ser melhorado e como implementar essas melhorias no próximo sprint.
+
+### Importância do Sprint:
+- **Iteratividade**: Os sprints permitem que a equipe trabalhe de forma iterativa, ajustando o produto com base no feedback recebido a cada ciclo.
+- **Foco e Disciplina**: A duração fixa e o objetivo claro ajudam a equipe a se concentrar e manter a disciplina no desenvolvimento.
+- **Adaptação**: Os sprints permitem que a equipe se adapte rapidamente a mudanças nas necessidades dos stakeholders ou no ambiente de desenvolvimento.
+
+Em resumo, o sprint é um componente essencial do Scrum que permite a entrega contínua de valor ao cliente, promovendo um ciclo de feedback e melhoria constante.

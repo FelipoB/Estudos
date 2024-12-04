@@ -1,0 +1,28 @@
+Linux e Mac foram baseados no sistema Unix ( onde pode possuir algumas pequenas diferenças)
+
+Windons  foi baseado no sistema operacional DOS 
+
+Por isso o GIT bash é um terninal que traduz o que escrevemos para o Windons entender 
+
+------------------
+
+Você está correto ao afirmar que Linux e macOS são baseados em princípios do Unix, enquanto o Windows foi historicamente baseado no DOS (Disk Operating System). Vamos detalhar um pouco mais sobre cada um desses pontos:
+
+### Sistemas Baseados em Unix
+
+- **Linux**: É um sistema operacional de código aberto que se inspira no Unix. Ele é amplamente utilizado em servidores, dispositivos embarcados e desktops. O Linux possui várias distribuições (como Ubuntu, Fedora, CentOS), cada uma com suas particularidades.
+  
+- **macOS**: O sistema operacional da Apple para computadores Mac é baseado no Unix, especificamente no BSD (Berkeley Software Distribution). Isso significa que o macOS herda muitas características do Unix, como a estrutura de arquivos e ferramentas de linha de comando.
+
+### Windows e DOS
+
+- **Windows**: O sistema operacional Windows, desenvolvido pela Microsoft, começou como um sistema gráfico que rodava sobre o DOS. Embora o Windows moderno não dependa mais do DOS, ele ainda possui algumas semelhanças, especialmente em relação à linha de comando.
+
+- **Git Bash**: O Git Bash é um terminal que fornece uma interface de linha de comando para o Windows, permitindo que os usuários executem comandos do Git e outros comandos Unix-like. Ele traduz os comandos que você digita para que o Windows possa entender e executar, proporcionando uma experiência mais semelhante à de um ambiente Unix.
+
+### Resumo
+
+- **Linux e macOS**: Baseados em Unix, com estruturas e ferramentas semelhantes.
+- **Windows**: Originalmente baseado no DOS, mas evoluiu para um sistema operacional gráfico independente.
+- **Git Bash**: Um terminal que permite usar comandos Unix no Windows, facilitando o uso do Git e outras ferramentas de linha de comando.
+

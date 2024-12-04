@@ -1,0 +1,54 @@
+COMO VOCÊ PENSA PARA CRIAR CENÁRIO DE TESTE ?
+
+R:. Pela técnica de de repartição de equivalência
+
+1 - Regra de negócio (Ex Nosso sistema de PIX iá sofrer uma alteração. agora só é possíveis tranferir acima de mil reais entre 7 am e 8 pm )
+
+Como você montaria o cenario de teste ?
+
+Entrada:
+Condição:
+Tipo de resposta:
+
+Primeiro Teste > 1000 as entre as 7 e 20 = Positivo
+Primeiro.1 Teste > 1000 as entre as 20 e 7 = Negativo
+
+Segundo Teste < 1000 as entre as 7 e 20 = Positivo
+Segundo.2 Teste < 1000 as entre as 20 e 7 = Positivo
+
+Terceiro Teste = 1000 as entre as 7 e 20 = Positivo
+Terceiro.2 Teste = 1000 as entre as 20 e 7 = Positivo
+
+Quarto Teste = 0 as entre as 7 e 20 = Negativo
+Quarto.2 Teste = 0 as entre as 20 e 7 = Negativo
+
+Exemplo do video Regra de senha
+Entrada: Senha 
+Condições: atender regras
+Tipo de resposta Passou Ou Falhou
+
+
+
+
+https://whimsical.com/testes-de-particao-de-equivalencia-UPSzr2rZS1AXkNfvmAzcCC
+
+
+-----------------------------
+A técnica de repartição de equivalência (ou equivalence partitioning) é uma abordagem utilizada em testes de software para identificar casos de teste eficazes. 
+O princípio básico dessa técnica é dividir o conjunto de entradas possíveis em classes de equivalência, onde todas as entradas de uma mesma classe devem ser tratadas da mesma forma pelo sistema.
+
+Aqui estão os passos gerais para aplicar a técnica de repartição de equivalência:
+
+1. **Identificação de Entradas**: Comece identificando todas as entradas que o sistema aceita. Isso pode incluir dados de entrada do usuário, parâmetros de configuração, etc.
+
+2. **Divisão em Classes de Equivalência**:
+   - **Classes Válidas**: Identifique os conjuntos de entradas que são válidos e que devem ser aceitos pelo sistema.
+   - **Classes Inválidas**: Identifique os conjuntos de entradas que são inválidos e que devem ser rejeitados.
+
+3. **Seleção de Casos de Teste**: Para cada classe de equivalência, escolha um ou mais casos de teste representativos. O ideal é que um único caso de teste de uma classe válida e um de uma classe inválida sejam suficientes para cobrir a funcionalidade.
+
+4. **Execução dos Testes**: Execute os casos de teste selecionados e verifique se o sistema se comporta conforme o esperado.
+
+5. **Análise dos Resultados**: Avalie os resultados dos testes e verifique se o sistema lida corretamente com as entradas de cada classe de equivalência.
+
+A técnica de repartição de equivalência é útil porque reduz o número de testes necessários, mantendo uma boa cobertura de testes. Isso é especialmente valioso em sistemas complexos, onde testar todas as combinações de entradas seria impraticável.

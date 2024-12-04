@@ -1,0 +1,45 @@
+Link 
+
+https://docs.google.com/spreadsheets/d/1kqMmTFargOonJePiq0t-0fnpPOeFzp3l/edit?gid=838253256#gid=838253256
+
+
+Tipos de cenário:
+Possitivo e negativo 
+
+Status
+
+Passou: tudo Ok
+Falhou: houve uma falha
+Bloqueado: é quando o tópico depende do anterior 
+
+
+
+-----Exemplo da Planilha----
+1 - Faça login com um e-mail e senha cadastrado		
+
+1.1	Digite um endereço de e-mail cadastrado		Passou
+1.2	Digite uma senha válida		Falhou
+1.3	Clique no botão Entrar	O usuário é logado com sucesso / Aparece a tela inicial	Blockeado
+
+2	Logar com um email não registrado		
+
+2.1	Insira um email não cadastrado		Passou
+2.2	Digite uma senha		Falhou
+2.3	Clique no botão Entrar	Uma mensagem de erro aparece dizendo: "Email e/ou senha inválidos"	 - Blockeado
+
+3	Faça login com um e-mail válido e senha inválida		
+3.1	Digite um endereço de e-mail válido	 - Passou
+3.2	Digite uma senha inválida	- 	Falhou
+3.3	Clique no botão Entrar	Uma mensagem de erro aparece dizendo: "Email e/ou senha inválidos"	- Blockeado
+
+4	Logar com todos os campos em branco		
+4.1	Clique no botão Entrar	Duas mensagens de erro aparecem: "Email não pode ficar em branco" e "Password não pode ficar em branco" -	Passou
+
+
+5	Logar a senha em branco		
+5.1	Digite um endereço de e-mail válido		Passou
+5.2	Clique no botão Entrar	Uma mensagem de erro aparece dizendo: "Password não pode ficar em branco"	- Passou
+
+
+6	Acessar pagina de cadastro pelo login		
+6.1	Clicar no Botão Cadastrar	O usuário é redirecionado para a pagina de cadastro de usuário - Falhou

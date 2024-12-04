@@ -1,0 +1,55 @@
+Essas são as reuniões do Scrum
+
+Refinamento / Grooming -  Descrever os stories - UMA ou DUAS VEZ  POR SPRINT
+
+planning - Juntar Stories para sprint e pontuar stories (retrabalhar Stories) - UMA VEZ POR SPRINT
+
+daily - Reunião rápida - O que fiz ontem/ o que farei hoje / Boqueios(ajuda) - DIARIO 
+
+retrospectiva - Pegar toda equipe para falar os seguinter tópicos ALGO LEGAL, O QUE PODIA SER MELHOR, O QUE PODEMOS TENTAR NA PRÓXIMA,
+O QUE NÃO FOI TÃO BOM E DUVIDAS -  UMA VEZ POR SPRINT
+
+review - Mostrar pro stakerholder o projeto (maioria das vezes é somente o Po )-  UMA VEZ POR SPRINT
+
+-------------
+As reuniões do Scrum são fundamentais para o sucesso do processo ágil e ajudam a manter a equipe alinhada e focada nos objetivos do projeto. Aqui está uma breve descrição de cada uma das reuniões que você mencionou:
+
+### 1. **Reunião de Planejamento do Sprint (Sprint Planning)**
+- **Objetivo**: Definir o que será feito no próximo sprint.
+- **Quando**: No início de cada sprint.
+- **Participantes**: Scrum Master, Product Owner e a equipe de desenvolvimento.
+- **Atividades**:
+  - O Product Owner apresenta os itens do Product Backlog que são prioritários.
+  - A equipe discute e seleciona os itens que podem ser concluídos no sprint, formando o Sprint Backlog.
+  - A equipe define um objetivo claro para o sprint, que orientará o trabalho.
+
+### 2. **Reunião Diária (Daily Scrum)**
+- **Objetivo**: Facilitar a comunicação e o acompanhamento do progresso.
+- **Quando**: Diariamente, geralmente no mesmo horário e local.
+- **Participantes**: Equipe de desenvolvimento, com o Scrum Master presente para facilitar.
+- **Atividades**:
+  - Cada membro da equipe responde a três perguntas:
+    - O que fiz ontem?
+    - O que farei hoje?
+    - Existem impedimentos que estão me bloqueando?
+  - A reunião é curta, geralmente não ultrapassando 15 minutos.
+
+### 3. **Reunião de Revisão do Sprint (Sprint Review)**
+- **Objetivo**: Apresentar o trabalho concluído e obter feedback dos stakeholders.
+- **Quando**: No final de cada sprint.
+- **Participantes**: Scrum Master, Product Owner, equipe de desenvolvimento e stakeholders.
+- **Atividades**:
+  - A equipe apresenta as funcionalidades desenvolvidas durante o sprint.
+  - Os stakeholders fornecem feedback sobre o que foi apresentado.
+  - Discussão sobre o que foi bem-sucedido e o que pode ser melhorado.
+
+### 4. **Retrospectiva do Sprint (Sprint Retrospective)**
+- **Objetivo**: Refletir sobre o sprint que passou e identificar oportunidades de melhoria.
+- **Quando**: Após a reunião de revisão do sprint e antes do planejamento do próximo sprint.
+- **Participantes**: Scrum Master, Product Owner e equipe de desenvolvimento.
+- **Atividades**:
+  - A equipe discute o que funcionou bem, o que não funcionou e por que.
+  - Identificação de ações concretas para melhorar o processo no próximo sprint.
+  - Foco em promover um ambiente de aprendizado e melhoria contínua.
+
+Essas reuniões são essenciais para garantir que a equipe esteja alinhada, que o progresso seja monitorado e que haja uma cultura de feedback e melhoria contínua dentro do time.

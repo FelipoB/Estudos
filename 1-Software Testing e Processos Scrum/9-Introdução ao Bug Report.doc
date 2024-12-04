@@ -1,0 +1,126 @@
+Introduçao ao bug reporte
+
+Tipos de Bug
+1  Bug Funcional -> Não fuiciona normalmente a funcionalidade 
+2 Bug Visual -> Algo da página está fora do padrão 
+3  Bug de Conteúdo-> Onde o conteudo apresentado pode estar com informação errada ou escrito errado, fonte da letra entre outros(ex: caixa de login ta escrito logn)  
+4  Bug de Performance ->   Quando a página não resposde adequadamente no tempo adequado
+5  Bug de sugestão -> Verificar espaços onde podem melhorar vizualmente (ex tela de cadastro nome-email-senha estão com as caixas de informações todas juntas e você indica que é melhor separa-las)      
+6  Bugs de Segurança ->
+Estes bugs representam vulnerabilidades que podem ser exploradas por atacantes. 
+7  Bugs de Compatibilidade
+Esses bugs ocorrem quando o software não funciona corretamente em diferentes ambientes, como sistemas operacionais, navegadores ou dispositivos. 
+
+
+
+
+
+
+
+
+----------------
+
+Um **bug report** (ou relatório de bug) é um documento que descreve um erro ou falha em um software. O objetivo do bug report é fornecer informações claras e detalhadas sobre o problema, permitindo que a equipe de desenvolvimento compreenda, reproduza e corrija o erro de forma eficiente.
+
+### Estrutura de um Bug Report
+
+Um bug report eficaz geralmente inclui os seguintes elementos:
+
+1. **Título**: Um resumo breve e claro do problema. Por exemplo: "Erro ao fazer login com credenciais válidas".
+
+2. **Descrição**: Uma descrição detalhada do problema, incluindo o que foi esperado e o que realmente aconteceu. Explique o impacto do bug no uso do software.
+
+3. **Passos para Reproduzir**: Uma lista passo a passo que descreve como reproduzir o bug. Isso é crucial para que a equipe de desenvolvimento possa ver o problema por si mesma. Por exemplo:
+   - Acessar a página de login.
+   - Inserir o nome de usuário "usuario_teste".
+   - Inserir a senha "senha123".
+   - Clicar no botão "Entrar".
+
+4. **Resultado Esperado**: O que você esperava que acontecesse após seguir os passos mencionados. Por exemplo: "O usuário deve ser redirecionado para a página inicial".
+
+5. **Resultado Real**: O que realmente aconteceu. Por exemplo: "O sistema retorna uma mensagem de erro: 'Credenciais inválidas'".
+
+6. **Ambiente**: Informações sobre o ambiente em que o bug ocorreu, como:
+   - Sistema operacional (Windows, macOS, Linux, etc.)
+   - Navegador (Chrome, Firefox, Safari, etc.) e sua versão
+   - Versão do software em que o bug foi encontrado
+
+7. **Anexos**: Capturas de tela, logs ou outros arquivos que possam ajudar a ilustrar o problema.
+
+8. **Prioridade/Severidade**: Uma classificação sobre a gravidade do bug e sua prioridade para correção. Isso pode ajudar a equipe a priorizar quais bugs corrigir primeiro.
+
+### Exemplo de Bug Report
+
+**Título**: Erro ao fazer login com credenciais válidas
+
+**Descrição**: Ao tentar fazer login com um nome de usuário e senha válidos, o sistema retorna uma mensagem de erro, impedindo o acesso.
+
+**Passos para Reproduzir**:
+1. Acessar a página de login.
+2. Inserir o nome de usuário "usuario_teste".
+3. Inserir a senha "senha123".
+4. Clicar no botão "Entrar".
+
+**Resultado Esperado**: O usuário deve ser redirecionado para a página inicial.
+
+**Resultado Real**: O sistema retorna uma mensagem de erro: "Credenciais inválidas".
+
+**Ambiente**:
+- Sistema Operacional: Windows 10
+- Navegador: Google Chrome, versão 92.0.4515.107
+- Versão do Software: 1.0.0
+
+**Anexos**: (incluir capturas de tela, se necessário)
+
+**Prioridade/Severidade**: Alta
+
+### Conclusão
+
+Um bug report bem elaborado é fundamental para a eficácia do processo de desenvolvimento e manutenção de software. Ele ajuda a equipe a identificar e resolver problemas de forma mais rápida e eficiente, melhorando a qualidade do produto final.
+
+Os bugs em software podem ser classificados em diferentes tipos, dependendo de suas características e do impacto que têm no sistema. Aqui estão alguns dos tipos mais comuns de bugs:
+
+### 1. **Bugs Funcionais**
+Estes bugs ocorrem quando uma funcionalidade do software não se comporta conforme o esperado ou não atende aos requisitos especificados. Exemplos incluem:
+- Um botão que não realiza a ação esperada.
+- Um cálculo que retorna um resultado incorreto.
+
+### 2. **Bugs de Interface do Usuário (UI)**
+Estes bugs estão relacionados à aparência e usabilidade da interface do usuário. Exemplos incluem:
+- Elementos da interface que não estão alinhados corretamente.
+- Textos que se sobrepõem ou que não são legíveis.
+
+### 3. **Bugs de Performance**
+Estes bugs afetam a velocidade e a eficiência do software. Exemplos incluem:
+- O sistema que demora excessivamente para carregar uma página ou processar uma requisição.
+- O software que consome uma quantidade excessiva de memória ou CPU.
+
+### 4. **Bugs de Segurança**
+Estes bugs representam vulnerabilidades que podem ser exploradas por atacantes. Exemplos incluem:
+- Falhas de autenticação que permitem o acesso não autorizado.
+- Injeções de SQL que podem comprometer a integridade dos dados.
+
+### 5. **Bugs de Compatibilidade**
+Esses bugs ocorrem quando o software não funciona corretamente em diferentes ambientes, como sistemas operacionais, navegadores ou dispositivos. Exemplos incluem:
+- Um aplicativo que funciona bem no Chrome, mas apresenta falhas no Firefox.
+- Um software que não é compatível com versões mais antigas de um sistema operacional.
+
+### 6. **Bugs de Regressão**
+Esses bugs aparecem após uma atualização ou modificação no código que não afeta diretamente a funcionalidade em questão, mas que causa falhas em áreas que antes funcionavam corretamente. Exemplos incluem:
+- Uma funcionalidade que estava funcionando antes da última atualização e que agora apresenta erros.
+
+### 7. **Bugs Lógicos**
+Esses bugs estão relacionados a falhas na lógica do código, onde o fluxo do programa não segue a lógica esperada. Exemplos incluem:
+- Condições que não são tratadas corretamente, levando a resultados inesperados.
+
+### 8. **Bugs de Confiabilidade**
+Esses bugs se referem a falhas que ocorrem sob condições específicas, como alta carga ou uso prolongado. Exemplos incluem:
+- O sistema que falha após um certo tempo de uso ou quando submetido a uma carga excessiva.
+
+### 9. **Bugs de Usabilidade**
+Estes bugs afetam a experiência do usuário, tornando a aplicação difícil de usar ou entender. Exemplos incluem:
+- Navegação confusa ou não intuitiva.
+- Falta de feedback ao usuário após ações, como cliques.
+
+### Conclusão
+Identificar e classificar bugs é essencial para a gestão de qualidade em software. Cada tipo de bug pode exigir abordagens e estratégias diferentes para correção e prevenção, e uma compreensão clara dos tipos de bugs pode ajudar as equipes a melhorar a qualidade do software e a experiência do usuário.

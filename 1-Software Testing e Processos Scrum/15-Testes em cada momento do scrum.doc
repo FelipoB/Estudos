@@ -1,0 +1,60 @@
+
+Refinamento - Criar cenário de testes
+
+entre refinamento e planing criar casos de teste 
+
+Planning - Ter casos de teste pronto ou perto de finalizar 
+
+Daily o que vai fazer, o que fez ontem e bloqueios 
+
+retrospectivas -  Vai trazer Bugs Reports e Test Reports 
+
+Review - Caso houver relatório de tudo que foi feito.
+
+
+TÓPICOS O QUE O FAZ NA SPRINT
+-Testear os casos de teste( manual) 
+-Testes Exploratórios(manual)
+-Adicionar PRincipais Cenários de Teste na automação 
+Criar teste de Integraçõ(Automação)
+- Criar Teste End 2 End (Automação)
+
+No realise 
+
+Teste de regressão (manual e Automação)
+ou 
+Smoke Teste em produção
+
+
+
+
+-------------------------
+Os testes realizados por um profissional de Qualidade (QA) em cada momento do processo Scrum são essenciais para garantir que o produto final atenda aos requisitos e expectativas dos stakeholders. Abaixo, descrevo como os testes podem ser integrados em cada etapa do ciclo Scrum:
+
+### 1. **Planejamento do Sprint (Sprint Planning)**
+- **Participação do QA**: O QA deve estar presente na reunião de planejamento do sprint para entender os requisitos e as histórias de usuário que serão abordadas.
+- **Definição de Critérios de Aceitação**: Junto com o Product Owner, o QA pode ajudar a definir critérios de aceitação claros para cada história de usuário, que servirão como base para os testes.
+
+### 2. **Execução do Sprint**
+- **Testes de Unitários**: Durante o desenvolvimento, os desenvolvedores devem criar testes unitários para validar a lógica de cada componente.
+- **Desenvolvimento de Casos de Teste**: O QA pode começar a escrever casos de teste baseados nos critérios de aceitação definidos. Esses casos de teste devem cobrir tanto os testes funcionais quanto os não funcionais (como desempenho e segurança).
+- **Testes de Integração**: À medida que as funcionalidades são desenvolvidas, o QA pode realizar testes de integração para garantir que os diferentes componentes do sistema funcionem corretamente juntos.
+
+### 3. **Reuniões Diárias (Daily Scrum)**
+- **Atualização do Progresso**: O QA deve compartilhar o progresso dos testes e quaisquer impedimentos que possam impactar o trabalho da equipe.
+- **Identificação de Problemas**: Se houver problemas encontrados durante os testes, o QA pode levantar esses pontos para discussão.
+
+### 4. **Revisão do Sprint (Sprint Review)**
+- **Demonstração dos Testes**: Durante a revisão do sprint, o QA pode demonstrar os testes realizados e discutir os resultados, incluindo quaisquer falhas ou problemas encontrados.
+- **Feedback e Ajustes**: O feedback dos stakeholders pode levar a ajustes nos critérios de aceitação ou na priorização de novas funcionalidades.
+
+### 5. **Retrospectiva do Sprint (Sprint Retrospective)**
+- **Reflexão sobre o Processo de Testes**: O QA pode contribuir para a discussão sobre o que funcionou bem e o que não funcionou no processo de testes durante o sprint.
+- **Melhorias**: Identificação de ações para melhorar a eficiência dos testes em sprints futuros, como a automação de testes ou a melhoria na documentação.
+
+### Considerações Finais
+- **Ciclo Contínuo**: O QA deve estar envolvido em todas as fases do ciclo Scrum, desde o planejamento até a entrega, para garantir que a qualidade seja uma prioridade contínua.
+- **Automação de Testes**: Sempre que possível, a automação de testes deve ser considerada para aumentar a eficiência e a cobertura dos testes.
+- **Colaboração**: A colaboração entre desenvolvedores e QA é fundamental para identificar e resolver problemas rapidamente, garantindo a entrega de um produto de alta qualidade.
+
+Integrar os testes em cada fase do Scrum não apenas melhora a qualidade do produto, mas também promove uma cultura de responsabilidade compartilhada pela qualidade entre todos os membros da equipe.

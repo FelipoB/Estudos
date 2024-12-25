@@ -1,0 +1,72 @@
+Existe uma extenção do Chrome chamada CSS selector onde ajuda a te mostrar todos os elementos da pagina que possuem um determinado atributo. Isso ajuda muito na hora de selecionar elementos com base em atributos únicos para realizarmos a automação.
+
+------------------------------------------------------------------------
+Para usar seletores CSS para encontrar atributos únicos em uma página da web, você pode utilizar o Chrome DevTools. Isso é especialmente útil para automação de testes ou quando você deseja selecionar elementos com base em atributos específicos. Aqui está um guia sobre como fazer isso:
+
+### Usando Seletores CSS no Chrome DevTools
+
+1. **Abrir o Chrome DevTools**:
+   - Clique com o botão direito na página que você deseja inspecionar e selecione "Inspecionar" ou pressione `F12` no teclado.
+
+2. **Selecionar a Aba de Elementos**:
+   - Clique na aba "Elements" (Elementos) no DevTools. Esta aba mostra a estrutura HTML da página.
+
+3. **Encontrando Elementos com Atributos Únicos**:
+   - Na aba "Elements", você pode usar a funcionalidade de busca para encontrar elementos com base em seus atributos. Pressione `Ctrl + F` (ou `Cmd + F` no Mac) para abrir a caixa de busca.
+
+4. **Usando Seletores CSS**:
+   - Você pode escrever seletores CSS na caixa de busca para encontrar elementos. Aqui estão alguns exemplos:
+
+   - **Selecionar por ID**: Para selecionar um elemento com um ID único:
+
+   ```css
+   #uniqueId
+   ```
+
+   - **Selecionar por Classe**: Para selecionar elementos com uma classe específica:
+
+   ```css
+   .className
+   ```
+
+   - **Selecionar por Atributo**: Para selecionar elementos com base em um atributo:
+
+   ```css
+   [attributeName="value"]
+   ```
+
+   Por exemplo, para selecionar um elemento com um atributo `data-role` igual a `admin`:
+
+   ```css
+   [data-role="admin"]
+   ```
+
+   - **Selecionar por Múltiplos Atributos**: Você pode combinar múltiplos atributos:
+
+   ```css
+   [attribute1="value1"][attribute2="value2"]
+   ```
+
+5. **Visualizando os Resultados**:
+   - À medida que você digita seu seletor CSS, o DevTools irá destacar os elementos correspondentes no DOM. Você pode clicar em qualquer um dos resultados para ver mais detalhes sobre aquele elemento.
+
+### Exemplo
+
+Suponha que você tenha o seguinte HTML:
+
+```html
+<div id="main" class="container">
+    <button data-role="admin" class="btn">Botão Admin</button>
+    <button data-role="user" class="btn">Botão Usuário</button>
+</div>
+```
+
+Para selecionar o botão com o atributo `data-role` igual a `admin`, você digitaria:
+
+```css
+[data-role="admin"]
+```
+
+### Conclusão
+
+Usar seletores CSS no Chrome DevTools é uma maneira poderosa de encontrar elementos com base em atributos únicos. Essa técnica é especialmente útil para testes de QA, scraping de dados ou quando se trabalha com frameworks JavaScript. Se você tiver cenários específicos ou perguntas sobre como usar seletores CSS, fique à vontade para perguntar!

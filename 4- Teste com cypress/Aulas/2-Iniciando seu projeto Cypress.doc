@@ -1,0 +1,29 @@
+Seguir os passos para ter um projeto organizado
+
+Exemplo aula com o comando 
+
+    cd Development/lume/aula
+
+    o meu caso colocaria
+    cd "C:/Users/FelipoBlanc/OneDrive - CSPTECH/Área de Trabalho/Estudo/Lume/4- Teste com cypress"
+
+Para criar nossa pasta nova direto no GIT
+    mkdir "Primeiros passos" com aspas para indentificar que é um texto  
+
+Instalando o cypress em doc> installind Cypress = https://docs.cypress.io/app/get-started/why-cypress
+
+    Depois que vc estiver na pasta do seu projeto vc pode executar o comando para intalar o cypress(este comando você encontra instrções como usar no próprio site da cypress)
+        npm init  (o git vai realizar varias perguntas só precisa colocar enter em tudo)
+    
+    e depois 
+        npm instal cypress --save-dev
+
+    Para verificar se foi instalando vc pode colocar o comando 
+        ls 
+
+
+
+
+
+
+as barras sempre pra / (direita)

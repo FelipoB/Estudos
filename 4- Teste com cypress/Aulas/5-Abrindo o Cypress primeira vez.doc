@@ -1,0 +1,14 @@
+https://docs.cypress.io/app/get-started/open-the-app
+
+Comando 
+    Npx cypres open 
+
+
+    *** Dica*** 
+        Voce pode usar esse comando abrindo o git ou indo no terminal Bash direto na pagida do vcs code já com o projeto pronto 
+
+
+
+Clicar em end 2 end 
+e  creat a newspec para nomear o novo projeto 
+abrir sempre com o chrome por conta o CSS selector 

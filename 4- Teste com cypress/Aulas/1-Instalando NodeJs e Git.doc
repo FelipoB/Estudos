@@ -1,0 +1,88 @@
+Cypress é uma ferramenta javascript então vamos usar o Node js 
+
+Instalar node js na sua máquina caso não houver para execução  Descarregar a Node.js v22.12.0 LTS  https://nodejs.org/pt/download/prebuilt-installer
+
+
+Usar Terminal GIT pq ele usa o mesmo comando do mac e Linux e conseguimos utilizar na nossa máquina Windows https://git-scm.com/downloads 
+
+
+Comando para Git 
+
+node -V =mostra a versão que vc está no node 
+nvm use 18 = caso queira atualizar pelo git só colocar o número da versão 
+
+
+O cypress voce só instala quando vc tem um workspace (pasta do projeto) por que ele vira um projeto 
+
+
+
+--------------------------------------------------------------------------------------
+
+O Node.js é um poderoso ambiente de execução JavaScript construído sobre o motor V8 do Chrome. Ele é usado principalmente para construir aplicações do lado do servidor escaláveis e de alto desempenho. Aqui estão alguns dos principais propósitos e características do Node.js:
+
+### 1. **Desenvolvimento do Lado do Servidor**
+   - O Node.js permite que os desenvolvedores escrevam aplicações do lado do servidor usando JavaScript, possibilitando o desenvolvimento full-stack com uma única linguagem de programação tanto para o cliente quanto para o servidor.
+
+### 2. **Assíncrono e Baseado em Eventos**
+   - O Node.js opera em uma arquitetura não bloqueante e orientada a eventos, o que o torna eficiente para lidar com múltiplas conexões simultaneamente. Isso é particularmente útil para aplicações que requerem interações em tempo real, como aplicativos de chat ou atualizações ao vivo.
+
+### 3. **NPM (Node Package Manager)**
+   - O Node.js vem com o NPM, que é um vasto repositório de bibliotecas e módulos que podem ser facilmente integrados em aplicações. Isso permite que os desenvolvedores aproveitem o código existente e acelerem o processo de desenvolvimento.
+
+### 4. **Arquitetura de Microserviços**
+   - O Node.js é bem adequado para construir microserviços, permitindo que os desenvolvedores criem pequenos serviços independentes que podem ser implantados e escalados separadamente. Isso promove uma abordagem modular para o desenvolvimento de aplicações.
+
+### 5. **APIs RESTful**
+   - O Node.js é comumente usado para construir APIs RESTful, permitindo a comunicação entre o cliente e o servidor. Sua natureza leve e capacidade de lidar com dados JSON o tornam uma escolha popular para o desenvolvimento de APIs.
+
+### 6. **Aplicações em Tempo Real**
+   - Com bibliotecas como o Socket.io, o Node.js é uma excelente escolha para desenvolver aplicações em tempo real, como jogos online, aplicativos de chat e ferramentas colaborativas, onde a comunicação instantânea é essencial.
+
+### 7. **Desenvolvimento Cross-Platform**
+   - Aplicações Node.js podem ser executadas em várias plataformas, incluindo Windows, macOS e Linux, tornando-o versátil para desenvolvedores que trabalham em diferentes ambientes.
+
+### 8. **Aplicações de Página Única (SPAs)**
+   - O Node.js é frequentemente usado em conjunto com frameworks front-end como React, Angular ou Vue.js para construir SPAs que oferecem uma experiência de usuário suave, carregando conteúdo dinamicamente sem precisar atualizar a página inteira.
+
+### Conclusão
+O Node.js é uma ferramenta robusta para o desenvolvimento web moderno, permitindo que os desenvolvedores criem aplicações rápidas, escaláveis e eficientes usando JavaScript no lado do servidor. Sua natureza assíncrona, seu ecossistema extenso de pacotes e sua adequação para aplicações em tempo real fazem dele uma escolha popular entre os desenvolvedores. Se você tiver mais perguntas ou precisar de exemplos específicos sobre como usar o Node.js, sinta-se à vontade para perguntar!
+
+
+
+
+
+**Git** e **GitHub** são ferramentas essenciais no desenvolvimento de software, mas servem a propósitos diferentes. Aqui está uma explicação sobre cada um:
+
+### Git
+
+**Git** é um sistema de controle de versão distribuído, que permite que os desenvolvedores rastreiem alterações no código-fonte ao longo do tempo. Aqui estão algumas das principais funcionalidades e usos do Git:
+
+1. **Controle de Versão**: Git permite que os desenvolvedores mantenham um histórico completo de todas as alterações feitas no código, o que facilita o rastreamento de mudanças e a reversão para versões anteriores, se necessário.
+
+2. **Trabalho Colaborativo**: Vários desenvolvedores podem trabalhar no mesmo projeto simultaneamente sem sobrescrever o trabalho uns dos outros. Git permite que cada desenvolvedor tenha sua própria cópia do repositório, onde pode fazer alterações antes de integrá-las ao código principal.
+
+3. **Branches (Ramos)**: Os desenvolvedores podem criar "branches" para trabalhar em novas funcionalidades ou correções de bugs sem afetar a versão estável do código. Isso permite experimentação e desenvolvimento paralelo.
+
+4. **Mesclagem (Merging)**: Após concluir o trabalho em um branch, os desenvolvedores podem mesclar suas alterações de volta ao branch principal (geralmente chamado de `main` ou `master`), facilitando a integração de novas funcionalidades.
+
+5. **Desempenho**: Git é projetado para ser rápido e eficiente, permitindo operações locais sem a necessidade de uma conexão de rede.
+
+### GitHub
+
+**GitHub** é uma plataforma de hospedagem de código que utiliza Git como seu sistema de controle de versão. Ele fornece uma interface web e várias ferramentas que facilitam o trabalho colaborativo. Aqui estão algumas das principais funcionalidades e usos do GitHub:
+
+1. **Hospedagem de Repositórios**: GitHub permite que os desenvolvedores hospedem seus repositórios Git na nuvem, tornando o código acessível de qualquer lugar.
+
+2. **Colaboração**: GitHub facilita a colaboração entre desenvolvedores, permitindo que eles revisem código, comentem e sugiram alterações através de "pull requests".
+
+3. **Issues**: Os desenvolvedores podem rastrear bugs, solicitações de funcionalidades e outras tarefas usando o sistema de "issues" do GitHub, que ajuda a organizar o trabalho em equipe.
+
+4. **Documentação**: GitHub permite que os desenvolvedores criem documentação para seus projetos usando arquivos README e wikis, tornando mais fácil para outros entenderem e contribuírem para o projeto.
+
+5. **Integração Contínua e Entrega Contínua (CI/CD)**: GitHub oferece ferramentas que permitem a automação de testes e implantações, ajudando a garantir que o código seja de alta qualidade e esteja sempre pronto para produção.
+
+6. **Comunidade e Networking**: GitHub é uma das maiores comunidades de desenvolvedores do mundo, permitindo que os usuários compartilhem projetos, contribuam para projetos de terceiros e construam um portfólio de trabalho.
+
+### Conclusão
+
+Em resumo, **Git** é uma ferramenta de controle de versão que permite que os desenvolvedores rastreiem e gerenciem alterações no código, enquanto **GitHub** é uma plataforma que hospeda repositórios Git e fornece ferramentas para colaboração e gerenciamento de projetos. Juntas, elas são fundamentais para o desenvolvimento moderno de software. Se você tiver mais perguntas ou precisar de mais detalhes sobre algum aspecto específico, sinta-se à vontade para perguntar!

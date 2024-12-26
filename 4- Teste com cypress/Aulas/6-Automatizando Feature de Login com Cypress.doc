@@ -9,17 +9,150 @@ Passos agora se encontra na página Primeiros passos Cypres exemplos > e2d > Sit
 
 
 
+O Cypress é uma ferramenta popular de testes de front-end que simplifica o processo de automação para aplicações web. Ele usa comandos simples para interagir com elementos na página, realizar verificações e navegar por fluxos. Aqui estão os principais comandos do Cypress, com explicações e exemplos:
+
+1. cy.visit(url)
+Usado para navegar até uma URL específica.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.visit('https://example.com');
+Acessa o site https://example.com.
+
+
+2. cy.get(selector)
+Busca elementos na página usando um seletor CSS.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.get('button#submit');
+Localiza um botão com o ID submit.
+
+
+3. cy.contains(texto)
+Encontra um elemento que contém um texto específico.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.contains('Enviar');
+Localiza o elemento que contém o texto "Enviar".
+
+
+4. cy.click()
+Clica em um elemento localizado previamente.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.get('button#submit').click();
+Clica no botão com ID submit.
 
 
 
+5. cy.type(texto)
+Digita um texto em um campo de entrada.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.get('input[name="email"]').type('usuario@example.com');
+Digita usuario@example.com no campo de entrada com o atributo name="email".
+
+
+6. cy.select(valor)
+Seleciona uma opção em um menu dropdown.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.get('select').select('Opção 1');
+Seleciona a opção com o texto Opção 1.
+
+
+7. cy.should(asserção)
+Realiza uma verificação (assert) sobre um elemento.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.get('h1').should('contain', 'Bem-vindo');
+Verifica se o elemento <h1> contém o texto "Bem-vindo".
+Asserções comuns:
+
+be.visible: O elemento está visível.
+exist: O elemento existe no DOM.
+have.text: O texto corresponde exatamente.
+contain: O texto contém uma substring.
+
+8. cy.wait(tempo)
+Aguarda um tempo específico antes de continuar (não recomendado para sincronização baseada em tempo).
+
+Exemplo:
+
+javascript
+Copiar código
+cy.wait(2000); // Aguarda 2 segundos
+
+
+9. cy.intercept()
+Interage com requisições de rede para interceptar, alterar ou esperar por respostas.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.intercept('GET', '/api/dados', { body: { sucesso: true } });
+Intercepta a chamada para /api/dados e retorna um corpo customizado.
+
+
+10. cy.fixture(nome-do-arquivo)
+Carrega dados de um arquivo de fixture.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.fixture('usuario.json').then((usuario) => {
+  cy.get('input[name="email"]').type(usuario.email);
+});
+Usa os dados do arquivo usuario.json.
 
 
 
+11. cy.viewport(largura, altura)
+Define o tamanho da janela do navegador.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.viewport(1280, 720);
+Define o tamanho da janela para 1280x720 pixels.
 
 
 
+12. cy.reload()
+Recarrega a página atual.
+
+Exemplo:
+
+javascript
+Copiar código
+cy.reload();
+Recarrega a página.
 
 
+Esses comandos são a base para a criação de testes automatizados no Cypress. Você pode combiná-los para cobrir fluxos complexos de interação e validação.
 
 ----------------------------------------
 Uma "página open source" refere-se a uma página da web ou aplicação web que é desenvolvida utilizando princípios de software de código aberto. Aqui estão alguns pontos chave sobre páginas open source:

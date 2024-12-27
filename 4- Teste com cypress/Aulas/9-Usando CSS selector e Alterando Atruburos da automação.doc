@@ -1,0 +1,9 @@
+A extensão CSS Selector Helper for Chrome é uma ferramenta útil para desenvolvedores e testers que precisam trabalhar com seletores CSS de forma eficiente. Essa extensão permite inspecionar elementos na página e extrair os seletores CSS correspondentes para uso em scripts de automação de testes, desenvolvimento front-end, entre outros. 
+
+Facilitando melhorarmos nosso código de forma mais organizada para automação diminuindo os seletores unicos
+
+Vantagens do Exemplo
+O seletor é direto (#username), garantindo simplicidade e eficiência no teste.
+Teste é mais robusto ao capturar erros como campos vazios ou credenciais inválidas.
+
+GOOGLE CHROME https://chromewebstore.google.com/detail/css-selector-helper/gddgceinofapfodcekopkjjelkbjodin?hl=pt-BR&utm_source=ext_sidebar

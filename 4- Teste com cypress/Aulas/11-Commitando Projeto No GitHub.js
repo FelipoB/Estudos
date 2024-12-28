@@ -43,9 +43,9 @@ git push origin main ou git push
 
 //Aqui está um exemplo básico de um arquivo README.md:
 
-# Nome do Projeto
+//Nome do Projeto
 
-## Descrição
+//Descrição
 Uma breve descrição do que o projeto faz e por que ele é útil.
 
 ## Instalação
@@ -59,4 +59,4 @@ git clone https://github.com/usuario/projeto.git
 cd projeto
 
 # Instale as dependências
-npm install
+npm install   

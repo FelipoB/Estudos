@@ -1,0 +1,13 @@
+https://github.com/FelipoB
+
+Um commit no Git é uma operação que salva as mudanças no repositório. Cada commit é identificado por um hash único e contém informações sobre as alterações feitas, o autor das mudanças e uma mensagem descritiva. Isso permite que os desenvolvedores rastreiem o histórico de alterações e revertam para versões anteriores do código, se necessário.
+
+GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que desenvolvedores colaborem em projetos de software, compartilhem código e acompanhem o histórico de alterações. GitHub também oferece funcionalidades como pull requests, issues, e integração contínua, facilitando o desenvolvimento colaborativo e a gestão de projetos.
+
+Outras plataformas de hospedagem de código incluem:
+
+1. GitLab: Uma plataforma de DevOps completa que oferece repositórios Git, integração contínua, entrega contínua e outras ferramentas de desenvolvimento colaborativo.
+2. Bitbucket: Um serviço de hospedagem de código que suporta repositórios Git e Mercurial, com funcionalidades de integração contínua e gestão de projetos.
+3. SourceForge: Uma plataforma de hospedagem de código que oferece repositórios Git, Subversion e Mercurial, além de ferramentas de gestão de projetos e colaboração.
+4. AWS CodeCommit: Um serviço de controle de versão gerenciado que hospeda repositórios Git na nuvem da Amazon Web Services.
+5. Azure Repos: Um serviço de repositórios Git hospedado na nuvem da Microsoft Azure, com integração com outras ferramentas de DevOps do Azure.

@@ -12,8 +12,8 @@ git init  ---- Irá criar uma pasta .git dizendo que iniciou o git repository (c
 // o que indentifica que a pasta é um repositório git é a pasta .git e tambem a (master) no final do caminho
 
 //Linkar o repositório que está no Github com o repositório local
-git remote add origin https://github.com/FelipoB/Estudos 
-// (exemplo do link do repositório)
+git remote add origin "https://github.com/FelipoB/Estudos"
+// (exemplo do link do repositório sem as aspas)
 
 git branch -M main  //Irá mudar o nome da branch master para main, porem pode dar qualquer nome para a branch
 
@@ -28,14 +28,8 @@ git status //Mostra os arquivos que foram adicionados ao commit
 //Faça o commit com uma mensagem
 git commit -m "Sua mensagem de commit"
 
-# Envie as mudanças para o repositório remoto
-git push origin main
-
-
-
-
-
-
+//Envie as mudanças para o repositório remoto
+git push origin main ou git push 
 
 //Um arquivo README é um documento que geralmente acompanha um projeto de software e fornece informações essenciais sobre o projeto. Ele é normalmente escrito em Markdown e nomeado como README.md. Aqui estão alguns pontos importantes sobre o arquivo README:
 

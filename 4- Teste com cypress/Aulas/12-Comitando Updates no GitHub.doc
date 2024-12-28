@@ -1,0 +1,38 @@
+Para comitar e fazer o update no GitHub, você pode seguir os seguintes passos:
+
+1. Verifique o status do repositório:
+    ```plaintext
+    git status
+    ```
+
+2. Adicione todas as mudanças ao staging:
+    ```plaintext
+    git add .
+    ```
+
+3. Faça o commit com uma mensagem descritiva:
+    ```plaintext
+    git commit -m "mensagem"
+    ```
+
+4. Envie as mudanças para o repositório remoto:
+    ```plaintext
+    git push 
+    ```
+
+
+    Se você deseja puxar um único arquivo do GitHub para o seu Visual Studio Code, você pode fazer isso de algumas maneiras. Vou mostrar um método usando a linha de comando e um método usando a interface gráfica do GitHub.
+
+Usando a Linha de Comando
+Obtenha a URL do Arquivo:
+
+Vá para a página do repositório no GitHub.
+Navegue até o arquivo que você deseja baixar.
+Clique no botão "Raw" para obter a URL direta do arquivo.
+Use curl ou wget para Baixar o Arquivo:
+
+Abra o terminal no Visual Studio Code.
+Use o comando curl ou wget para baixar o arquivo diretamente para o seu diretório de trabalho. Por exemplo:
+curl -O https://raw.githubusercontent.com/username/repository/branch/path/to/yourfile.txt   (a letra O tem que ser maiúscula)
+
+Substitua username, repository, branch, e path/to/yourfile.txt pelos valores corretos do seu repositório e arquivo.

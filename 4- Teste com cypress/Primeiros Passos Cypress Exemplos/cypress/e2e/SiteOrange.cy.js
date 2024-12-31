@@ -38,7 +38,20 @@ describe('site Orange', () => {
       cy.get(comandos.alerta).contains('Invalid credentials') /// RETORNAR MENSAGEM DE ERRO 'INVALID CREDENTIALS'
       
     })
-  
+    
+
+    //baseUrl: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+    it('Login usuário errado2 ', () => {
+      cy.visit('/auth/login')
+      cy.get(comandos.inserirNome) .type(userData.usuarioErrado.nome) /// USUARIO ERRADO  
+      cy.get(comandos.inserirSenha) .type('admin122') /// SENHA CORRETA
+      cy.get(comandos.clicarEmSubmit).click() /// CLICAR EM LOGIN
+      cy.get(comandos.alerta).contains('Invalid credentials') /// RETORNAR MENSAGEM DE ERRO 'INVALID CREDENTIALS'
+      
+    })
   
   
   })
+
+
+  

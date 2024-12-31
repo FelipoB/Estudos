@@ -1,0 +1,11 @@
+{
+    "usuarioCorreto": {
+        "nome": "Admin",
+        "senha": "admin123"
+    },
+
+    "usuarioErrado": {
+        "nome": "error",
+        "senha": "test"
+    }
+}

@@ -1,3 +1,5 @@
+import userData from '../fixtures/users/user-data.json'
+
 describe('site Orange', () => {
 
   const comandos = {
@@ -7,20 +9,7 @@ describe('site Orange', () => {
     alerta: "[role='alert']",//alerta de erro
     tituloTopo: '.oxd-topbar-header-breadcrumb-module',// titulo da pagina
     paginaDashboard:  '.orangehrm-dashboard-grid' //pagina dashboard inteira
-    
     }  
-
-  const userData = {
-    usuarioCorreto: {
-      nome: 'Admin',
-      senha: 'admin123'
-    },
-    usuarioErrado: {
-      nome: 'Admin',
-      senha: 'test'
-  }
-
-  }
     
     it('Login com sucesso', () => {
       cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
@@ -43,8 +32,8 @@ describe('site Orange', () => {
   
     it('Login usuário errado', () => {
       cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-      cy.get(comandos.inserirNome) .type(usuario.nomeErrado) /// USUARIO CORRETO   
-      cy.get(comandos.inserirSenha) .type('admin123') /// SENHA CORRETA
+      cy.get(comandos.inserirNome) .type(userData.usuarioErrado.nome) /// USUARIO ERRADO  
+      cy.get(comandos.inserirSenha) .type('admin122') /// SENHA CORRETA
       cy.get(comandos.clicarEmSubmit).click() /// CLICAR EM LOGIN
       cy.get(comandos.alerta).contains('Invalid credentials') /// RETORNAR MENSAGEM DE ERRO 'INVALID CREDENTIALS'
       

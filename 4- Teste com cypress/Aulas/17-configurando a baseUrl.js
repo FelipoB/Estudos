@@ -6,7 +6,7 @@
 
 module.exports = {
     e2e: {
-      baseUrl: 'https://example.com'
+      baseUrl: 'https://example.com' // Define a baseUrl para todos os test
     }
   };
 

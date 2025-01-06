@@ -7,9 +7,9 @@
 
 //fixtures/teste.json'
 
-{
-    "name": "John Doe",
-    "email": "john.doe@example.com"
+  {
+    name:"John Doe",
+    mail:  "john.doe@example.com"
   }
 
 //Você pode então usar esses dados em seus testes Cypress da seguinte maneira:

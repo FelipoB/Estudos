@@ -26,7 +26,7 @@ quanto para outros que estão aprendendo tópicos similares.
 - Design de Casos de Teste
 - Teste Manual
 - Teste de Automação
-  - Selenium
+  - Selenium 
   - Robot Framework
   - Cypress
 - Teste de Performance

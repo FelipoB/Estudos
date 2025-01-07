@@ -1,0 +1,13 @@
+O force: true é uma opção no Cypress que pode ser usada em comandos de interação, como click, type, entre outros. Essa opção força o Cypress a realizar a ação no elemento, mesmo que ele esteja coberto por outro elemento ou não seja considerado "visível" pelo Cypress.
+
+Aqui está um exemplo de como usar force: true:
+
+cy.get('button#submit').click({ force: true });
+
+Quando usar force: true?
+Quando você sabe que o elemento está presente e interativo, mas o Cypress não consegue interagir com ele devido a sobreposições ou outras condições de visibilidade.
+Em casos onde a visibilidade do elemento é controlada por estilos CSS que o Cypress não consegue interpretar corretamente.
+
+Cuidados ao usar force: true
+Usar force: true pode mascarar problemas reais na sua aplicação, como elementos que não estão realmente visíveis ou interativos para o usuário final.
+É importante garantir que o uso dessa opção não comprometa a integridade dos testes, validando que a interação forçada é realmente necessária.

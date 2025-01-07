@@ -1,11 +1,11 @@
 {
-    "usuarioCorreto": {
-        "nome": "Admin",
-        "senha": "admin123"
+    "correctUser": {
+        "user": "Admin",
+        "password": "admin123"
     },
 
-    "usuarioErrado": {
-        "nome": "error",
-        "senha": "test"
+    "incorrectUser": {
+        "name": "error",
+        "password": "test"
    }
 }

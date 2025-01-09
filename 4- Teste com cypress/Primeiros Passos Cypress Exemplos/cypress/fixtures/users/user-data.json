@@ -5,7 +5,7 @@
     },
 
     "incorrectUser": {
-        "name": "error",
+        "user": "error",
         "password": "test"
    }
 }

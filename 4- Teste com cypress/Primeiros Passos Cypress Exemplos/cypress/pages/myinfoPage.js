@@ -46,16 +46,20 @@ class infoPage {
 
     }
         
-        fillMyInfo(){
+        fillMyInfoOne(firstName, middleName,lastName){
             //First part
-            cy.get(this.selectorlist().inputFirstName).click().clear().type("Teste")
-            cy.get(this.selectorlist().inputMiddleName).click().clear().type("Cypress")
-            cy.get(this.selectorlist().inputLastName).click().clear().type("Teste Cypress")
+            cy.get(this.selectorlist().inputFirstName).click().clear().type(firstName)
+            cy.get(this.selectorlist().inputMiddleName).click().clear().type(middleName)
+            cy.get(this.selectorlist().inputLastName).click().clear().type(lastName)
+        }
+        fillMyInfotwo(employeeId,OtherId,driverLicense,licenseExpiryDate){
             //Second part
-            cy.get(this.selectorlist().inputEmployeeId).clear().type("123456")
-            cy.get(this.selectorlist().inputOtherId).clear().type("123456")
-            cy.get(this.selectorlist().inputDriverLicense).clear().type("123456")
-            cy.get(this.selectorlist().inputLicenseExpiryDate).clear().type("2021-31-12").click()
+            cy.get(this.selectorlist().inputEmployeeId).clear().type(employeeId)
+            cy.get(this.selectorlist().inputOtherId).clear().type(OtherId)
+            cy.get(this.selectorlist().inputDriverLicense).clear().type(driverLicense)
+            cy.get(this.selectorlist().inputLicenseExpiryDate).clear().type(licenseExpiryDate).click()
+        }
+        fillMyInfoThree() {
             //Third Part 
             cy.get(this.selectorlist().dropdownNationality).click()
             cy.get(this.selectorlist().brazilOption).click()
@@ -68,8 +72,6 @@ class infoPage {
             cy.get(this.selectorlist().selectBloodType).click()
             cy.get(this.selectorlist().Bplus).click()
             cy.get(this.selectorlist().inputTestField).click().clear().type('666')
-            
-        
 
         }
 

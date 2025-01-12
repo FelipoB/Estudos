@@ -1,0 +1,70 @@
+O padrão Page Object é uma maneira de estruturar seus testes de forma que a lógica de interação com a página fique separada da lógica dos testes em si. Isso torna os testes mais legíveis, reutilizáveis e fáceis de manter. Aqui está uma descrição da estrutura de um Page Object no Cypress:
+
+Criação da Classe Page Object:
+
+Crie uma classe que represente a página que você deseja testar.
+Dentro dessa classe, defina métodos que encapsulam as interações com os elementos da página.
+Métodos de Navegação e Interação:
+
+Adicione métodos para navegar até a página e para interagir com os elementos da página.
+Esses métodos devem usar os comandos do Cypress para realizar as ações necessárias.
+Uso do Page Object nos Testes:
+
+Nos arquivos de teste, instancie a classe Page Object e utilize seus métodos para realizar as ações e verificações.
+Aqui está um exemplo de como isso pode ser implementado:
+
+Exemplo de Classe Page Object
+Exemplo de Uso do Page Object no Teste
+Benefícios do Padrão Page Object
+Reutilização: Métodos de interação podem ser reutilizados em diferentes testes.
+Manutenção: Alterações na interface da página precisam ser feitas apenas na classe Page Object.
+Legibilidade: Testes ficam mais legíveis, pois a lógica de interação está encapsulada.
+Essa estrutura ajuda a manter seus testes organizados e facilita a manutenção à medida que sua aplicação cresce.
+
+
+Exemplo de Classe Page Object
+class LoginPage {
+  navigate() {
+    cy.visit('/login');
+  }
+
+  getUsernameField() {
+    return cy.get('#username');
+  }
+
+  getPasswordField() {
+    return cy.get('#password');
+  }
+
+  getLoginButton() {
+    return cy.get('button[type="submit"]');
+  }
+
+  login(username, password) {
+    this.getUsernameField().type(username);
+    this.getPasswordField().type(password);
+    this.getLoginButton().click();
+  }
+}
+
+export default LoginPage;
+
+
+Exemplo de Uso do Page Object no Teste
+import LoginPage from '../support/pageObjects/LoginPage';
+
+describe('Login Test', () => {
+  const loginPage = new LoginPage();
+
+  it('should login with valid credentials', () => {
+    loginPage.navigate();
+    loginPage.login('user', 'password');
+    cy.url().should('include', '/dashboard');
+  });
+});
+
+
+Benefícios do Padrão Page Object
+Reutilização: Métodos de interação podem ser reutilizados em diferentes testes.
+Manutenção: Alterações na interface da página precisam ser feitas apenas na classe Page Object.
+Legibilidade: Testes ficam mais legíveis, pois a lógica de interação está encapsulada.

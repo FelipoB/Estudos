@@ -4,36 +4,28 @@ import dashboardPage from   '../pages/dashboardPage.js'
 import myInfoPage from      '../pages/myinfoPage.js'
 import MenuPage from        '../pages/menupage.js'
    
+    var Chance = require('chance') // randomizar os nomes  com CHANCE JS
+    var chance = new Chance()
     const login = new loginPage()
     const dashboard = new dashboardPage() 
     const myInfo = new myInfoPage()
     const menu = new MenuPage()
-1
 
-describe('site Orange', () => {
+
+describe('Logar e Cadastras', () => {
 
   
     });
     
-    // Successful login test with the Const and the object userData in another file
-    it('Successful login', () => {
-          login.acessLogin()
-          login.loginCorrectUser(userData.correctUser.user, userData.correctUser.password)
-          dashboard.VerifyDashboardPage()
 
-        });
-    it('Fail login', () => {
-          login.acessLogin()
-          login.loginIncorrectUser(userData.incorrectUser.user, userData.incorrectUser.password)
-          
-        });
-
-    it.only('Access MyInfo And Fill Details ', () => {
+    it('Access MyInfo And Fill Details ', () => {
           login.acessLogin()
           login.loginCorrectUser(userData.correctUser.user, userData.correctUser.password)
           dashboard.VerifyDashboardPage()
           menu.clickMyinfoButton()
-          myInfo.fillMyInfo()
+          myInfo.fillMyInfoOne(chance.first(),chance.last(),chance.last()) // este casso estou usando CHANCE JS para gerar nomes aleatórios 
+          myInfo.fillMyInfotwo("9999","8888","666555","2030-25-12")
+          myInfo.fillMyInfoThree()
           myInfo.SaveAndCheck()
 
 
@@ -71,12 +63,7 @@ describe('site Orange', () => {
 
 
 
-      //cy.get(pageElements.inputUsername).type(userData.correctUser.user) // Correct username
-      //cy.get(pageElements.inputPassword).type(userData.correctUser.password) // Correct password
-      //cy.get(pageElements.buttonSubmit).click() // Click login
-      //cy.location('pathname').should('equal', '/web/index.php/dashboard/index') // System returns dashboard page
-      //cy.get(pageElements.dashboardPage) // System returns dashboard page title
-    //});
+      
     
     // Login with incorrect password but only using elements without userData
     //it('Login with incorrect password', () => {

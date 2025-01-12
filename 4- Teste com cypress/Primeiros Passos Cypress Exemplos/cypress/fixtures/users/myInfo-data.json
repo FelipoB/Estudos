@@ -1,0 +1,13 @@
+{
+    "infoData": {
+        "firstname": "Admin",
+        "middlename": "admin123",
+        "lastname":"teste",
+        "employeeId":"teste",
+        "otherId":"teste",
+        "drivelicense":"teste",
+        "licenseExpityDate":"teste",
+        "dateofbirth":"teste"
+
+    }
+}

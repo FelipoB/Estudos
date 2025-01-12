@@ -13,24 +13,17 @@ import MenuPage from        '../pages/menupage.js'
 
 
 describe('Logar e Cadastras', () => {
-
-  
     });
     
-
     it('Access MyInfo And Fill Details ', () => {
           login.acessLogin()
           login.loginCorrectUser(userData.correctUser.user, userData.correctUser.password)
           dashboard.VerifyDashboardPage()
           menu.clickMyinfoButton()
-          myInfo.fillMyInfoOne(chance.first(),chance.last(),chance.last()) // este casso estou usando CHANCE JS para gerar nomes aleatórios 
+          myInfo.fillMyInfoOne(chance.first(),chance.last(),chance.last()) // este caso estou usando CHANCE JS para gerar nomes aleatórios 
           myInfo.fillMyInfotwo("9999","8888","666555","2030-25-12")
           myInfo.fillMyInfoThree()
           myInfo.SaveAndCheck()
-
-
-
-
 
         });
 

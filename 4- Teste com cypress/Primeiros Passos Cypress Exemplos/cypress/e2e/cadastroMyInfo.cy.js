@@ -21,7 +21,7 @@ describe('Logar e Cadastras', () => {
           dashboard.VerifyDashboardPage()
           menu.clickMyinfoButton()
           myInfo.fillMyInfoOne(chance.first(),chance.last(),chance.last()) // este caso estou usando CHANCE JS para gerar nomes aleatórios 
-          myInfo.fillMyInfotwo("9999","8888","666555","2030-25-12")
+          myInfo.fillMyInfotwo("9999","8888","666555","12-25-2030")
           myInfo.fillMyInfoThree()
           myInfo.SaveAndCheck()
 

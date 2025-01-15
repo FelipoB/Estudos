@@ -66,7 +66,7 @@ class infoPage {
             cy.get(this.selectorlist().dropdownMaritalStatus).click()
             cy.get(this.selectorlist().otherOption).click()
             //Four Part
-            cy.get(this.selectorlist().inputDateOfBirth).click().clear().type('1996-22-11').click()
+            cy.get(this.selectorlist().inputDateOfBirth).click().clear().type('22-11-1996').click()
             cy.get(this.selectorlist().femaleButton).click();
             //Five Part
             cy.get(this.selectorlist().selectBloodType).click()

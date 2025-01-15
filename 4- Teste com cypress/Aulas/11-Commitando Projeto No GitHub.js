@@ -7,7 +7,7 @@ Exemplo: https://github.com/FelipoB/Estudos
 cd /caminho/para/seu/projeto
 
 //Inicialize um repositório Git local
-git init  ---- Irá criar uma pasta .git dizendo que iniciou o git repository (comando ls -a para ver a pasta .git) 
+git init  // Irá criar uma pasta .git dizendo que iniciou o git repository (comando ls -a para ver a pasta .git)
 
 // o que indentifica que a pasta é um repositório git é a pasta .git e tambem a (master) no final do caminho
 

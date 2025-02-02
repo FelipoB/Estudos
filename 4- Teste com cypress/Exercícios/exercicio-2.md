@@ -31,6 +31,21 @@ Automação do Caso de Teste: Enviar dinheiro com saldo suficiente.
 describe('Enviar dinheiro com saldo suficiente', () => {
   it('Deve enviar dinheiro com sucesso', () => {
     // Implemente os passos do caso de teste aqui
+    cy.visit('http://localhost:3000/')
+      cy.get('#username').type(dados.users[0].username)
+      cy.get('#password').type('s3cret') // mesma senha para todos os usuários
+      cy.get('[data-test="signin-submit"]').click()
+      cy.get('.MuiTabs-flexContainer') // Verifica se está na Home
+      cy.get('.css-1idn90j-MuiGrid-root') // Verifica se está na Home (outra forma)
+      cy.get('[data-test="nav-top-new-transaction"]').click()
+      //Área de transferência
+      cy.get('[data-test="user-list-search-input"]').type(dados.users[1].firstName + ' ' + dados.users[1].lastName)
+      cy.get('[data-test="user-list-item-GjWovtg2hr"] > .MuiListItemText-root > .MuiTypography-body1').click()
+      cy.get('.MuiBox-root > .MuiGrid-container > :nth-child(2) > .MuiTypography-root').should('be.visible').contains(dados.users[1].firstName + ' ' + dados.users[1].lastName)
+      cy.get('#amount').type('100')
+      cy.get('#transaction-create-description-input').type('Teste de envio de dinheiro 100 doll')
+      cy.get('[data-test="transaction-create-submit-payment"]').click()
+      cy.get('[data-test="alert-bar-success"]').should('be.visible').contains('Transaction Submitted!')
   });
 });
 ```
@@ -40,6 +55,21 @@ Automação do Caso de Teste: Enviar dinheiro com saldo insuficiente.
 describe('Enviar dinheiro com saldo insuficiente', () => {
   it('Deve exibir mensagem de erro ao enviar dinheiro sem saldo suficiente', () => {
     // Implemente os passos do caso de teste aqui
+    cy.visit('http://localhost:3000/')
+      cy.get('#username').type(dados.users[2].username)
+      cy.get('#password').type('s3cret') // mesma senha para todos os usuários
+      cy.get('[data-test="signin-submit"]').click()
+      cy.get('.MuiTabs-flexContainer') // Verifica se está na Home
+      cy.get('.css-1idn90j-MuiGrid-root') // Verifica se está na Home (outra forma)
+      cy.get('[data-test="nav-top-new-transaction"]').click()
+      //Área de transferência
+      cy.get('[data-test="user-list-search-input"]').type(dados.users[1].firstName + ' ' + dados.users[1].lastName)
+      cy.get('[data-test="user-list-item-GjWovtg2hr"] > .MuiListItemText-root > .MuiTypography-body1').click()
+      cy.get('.MuiBox-root > .MuiGrid-container > :nth-child(2) > .MuiTypography-root').should('be.visible').contains(dados.users[1].firstName + ' ' + dados.users[1].lastName)
+      cy.get('#amount').type('100')
+      cy.get('#transaction-create-description-input').type('Teste de envio de dinheiro 100 doll')
+      cy.get('[data-test="transaction-create-submit-payment"]').click()
+      cy.get('[data-test="alert-bar-success"]').should('be.visible').contains('Transaction not Sucess')
   });
 });
 ```

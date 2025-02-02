@@ -31,6 +31,12 @@ Automação do Caso de Teste: Visualizar histórico de transações com sucesso.
 describe('Visualizar histórico de transações com sucesso', () => {
   it('Deve exibir o histórico de transações de um usuário corretamente', () => {
     // Implemente os passos do caso de teste aqui
+      cy.visit('http://localhost:3000/')
+      loginPage.Logar(dados.users[0].username, 's3cret')
+      homePage.clicarNovaTransacao()
+      transactionPage.RealizarTransferencia()
+      menu.clicarHome()
+      homePage.VerificarTransacao()
   });
 });
 ```
@@ -41,6 +47,10 @@ Automação do Caso de Teste: Tentar visualizar o histórico de transações de 
 describe('Tentar visualizar o histórico de transações sem transações anteriores', () => {
   it('Deve exibir uma mensagem indicando que o usuário não possui transações anteriores', () => {
     // Implemente os passos do caso de teste aqui
+    cy.visit('http://localhost:3000/')
+      loginPage.Logar(dados.users[1].username, 's3cret')
+      homePage.VerificarTransacao()
+      homePage.VerificarTransacaoAnteriores()
   });
 });
 ```

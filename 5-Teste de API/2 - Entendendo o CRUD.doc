@@ -1,0 +1,82 @@
+
+
+CRUD é um acrônimo para Create, Read, Update e Delete, que são as quatro operações básicas que podem ser realizadas em um recurso. São operações comuns em muitos sistemas que trabalham com dados, como bancos de dados e APIs.
+
+
+## Create
+A operação de Create permite que um novo recurso seja adicionado ao sistema. Geralmente, essa operação é realizada via requisição HTTP POST.
+
+Exemplo de requisição de Create:
+
+POST /users HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{
+ "name": "João",
+ "age": 25
+}
+
+## Read
+A operação de Read permite que um recurso existente seja lido. Geralmente, essa operação é realizada via requisição HTTP GET.
+
+Exemplo de requisição de Read:
+
+GET /users/1 HTTP/1.1
+Host: example.com
+
+## Update
+A operação de Update permite que um recurso existente seja atualizado. Geralmente, essa operação é realizada via requisição HTTP PUT ou PATCH.
+
+Exemplo de requisição de Update via PUT:
+
+PUT /users/1 HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{
+ "name": "Joãozinho",
+ "age": 26
+}
+
+Exemplo de requisição de Update via PATCH:
+
+PATCH /users/1 HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{
+ "name": "Joãozinho"
+}
+
+## Delete
+A operação de Delete permite que um recurso existente seja excluído. Geralmente, essa operação é realizada via requisição HTTP DELETE.
+
+Exemplo de requisição de Delete:
+
+DELETE /users/1 HTTP/1.1
+Host: example.com
+
+
+POST -criat
+GET - buscar 
+PUT - alterar
+PATCH -alterar informações especificas 
+DELETE - deleta 
+
+## POST
+O método POST é utilizado para criar um novo recurso. Ele contém dados em seu corpo que ser o utilizados para criar o recurso.
+
+## GET
+O método GET é utilizado para obter um recurso. Ele não contém dados em seu corpo e é normalmente usado para obter uma representação do recurso.
+
+## PUT
+O método PUT é utilizado para atualizar um recurso existente. Ele contém dados em seu corpo que ser o utilizados para atualizar o recurso.
+
+## PATCH
+O método PATCH é utilizado para atualizar parcialmente um recurso existente. Ele contém dados em seu corpo que ser o utilizados para atualizar apenas as partes do recurso que precisam ser atualizadas.
+
+## DELETE
+O método DELETE é utilizado para excluir um recurso existente. Ele não contém dados em seu corpo e é normalmente usado para excluir um recurso.
+
+

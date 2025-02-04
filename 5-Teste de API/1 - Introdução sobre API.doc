@@ -1,0 +1,48 @@
+# Introdução sobre API
+
+API é a sigla para Application Programming Interface, que em português significa Interface de Programação de Aplicações. Uma API é um conjunto de definições e protocolos que permitem a comunicação entre diferentes sistemas de software. Elas são usadas para permitir que diferentes aplicações interajam entre si, compartilhando dados e funcionalidades.
+
+## Tipos de APIs
+
+Existem vários tipos de APIs, incluindo:
+
+1. **APIs Web**: Permitem a comunicação entre servidores web e clientes (navegadores, aplicativos móveis, etc.).
+2. **APIs de Sistema Operacional**: Permitem que aplicativos interajam com o sistema operacional.
+3. **APIs de Biblioteca**: Permitem que aplicativos usem funcionalidades de bibliotecas de software.
+
+## Funcionamento de uma API
+
+Uma API define um conjunto de funções e procedimentos que podem ser chamados por outras aplicações. Essas funções e procedimentos são definidos em um contrato de API, que especifica como as chamadas devem ser feitas e quais dados devem ser fornecidos.
+
+Quando uma aplicação faz uma chamada para uma API, a chamada é processada pelo servidor da API e a resposta é enviada de volta para a aplicação.
+
+
+-------------------------------------
+## APIs REST, SOAP, gRPC e GraphQL
+
+Existem vários protocolos diferentes que podem ser usados para implementar APIs, incluindo REST, SOAP, gRPC e GraphQL.
+
+### REST
+
+REST é um protocolo de API que se baseia em requisições HTTP para executar operações em um recurso. Ele é amplamente utilizado por causa de sua simplicidade e flexibilidade.
+
+### SOAP
+
+SOAP é um protocolo de API que se baseia em mensagens XML para executar operações em um recurso. Ele é mais complexo que REST, mas oferece mais segurança e confiabilidade.
+
+### gRPC
+
+gRPC é um protocolo de API que se baseia em mensagens Protocol Buffers para executar operações em um recurso. Ele é mais rápido e mais eficiente que REST e SOAP.
+
+### GraphQL
+
+GraphQL é um protocolo de API que se baseia em consultas para executar operações em um recurso. Ele permite que os clientes definam quais dados eles desejam obter em uma única chamada, o que o torna mais eficiente que REST e SOAP.
+
+
+
+
+## Swagger
+
+Swagger é uma ferramenta de documentação de APIs que permite gerar automaticamente documentação para APIs RESTful. Ela permite que os desenvolvedores criem documentação de API com descrições, parâmetros, códigos de resposta e exemplos de requisição e resposta. Isso facilita a compreensão e o uso da API por parte dos desenvolvedores.
+
+Swagger é amplamente utilizado em projetos de software e é considerado uma boa prática para documentar APIs.
